@@ -3,27 +3,103 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A95DB693A0599677F77123F /* Pods_SparkRefactoring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0A537223CCFE6BEE894551 /* Pods_SparkRefactoring.framework */; };
+		E92EEEF825BAE6F60053F32D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92EEEF725BAE6F60053F32D /* LoginViewController.swift */; };
+		E92EEF0125BAF8BE0053F32D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92EEF0025BAF8BE0053F32D /* HomeViewController.swift */; };
+		E92EEF0525BAFB180053F32D /* UITabGestureRecognizer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92EEF0425BAFB180053F32D /* UITabGestureRecognizer+.swift */; };
 		E963C62F25BAA60F0065EBCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C62E25BAA60F0065EBCB /* AppDelegate.swift */; };
 		E963C63125BAA60F0065EBCB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C63025BAA60F0065EBCB /* SceneDelegate.swift */; };
 		E963C63325BAA60F0065EBCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C63225BAA60F0065EBCB /* ViewController.swift */; };
-		E963C63625BAA60F0065EBCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E963C63425BAA60F0065EBCB /* Main.storyboard */; };
 		E963C63825BAA60F0065EBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E963C63725BAA60F0065EBCB /* Assets.xcassets */; };
 		E963C63B25BAA60F0065EBCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E963C63925BAA60F0065EBCB /* LaunchScreen.storyboard */; };
+		E963C66325BAAA960065EBCB /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C66225BAAA960065EBCB /* SplashViewController.swift */; };
+		E963C66625BAAC0D0065EBCB /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = E963C66525BAAC0D0065EBCB /* .swiftlint.yml */; };
+		E963C66C25BAAE220065EBCB /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E963C66B25BAAE220065EBCB /* Splash.storyboard */; };
+		E963C67025BAB5690065EBCB /* AppleLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C66F25BAB5690065EBCB /* AppleLoginButton.swift */; };
+		E963C68625BAC1120065EBCB /* PoingDesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E963C67D25BAC1120065EBCB /* PoingDesignSystem.framework */; };
+		E963C68D25BAC1120065EBCB /* PoingDesignSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C68C25BAC1120065EBCB /* PoingDesignSystemTests.swift */; };
+		E963C68F25BAC1120065EBCB /* PoingDesignSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = E963C67F25BAC1120065EBCB /* PoingDesignSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E963C69225BAC1120065EBCB /* PoingDesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E963C67D25BAC1120065EBCB /* PoingDesignSystem.framework */; };
+		E963C69425BAC1120065EBCB /* PoingDesignSystem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E963C67D25BAC1120065EBCB /* PoingDesignSystem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E963C6A125BAC1BB0065EBCB /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C6A025BAC1BB0065EBCB /* UIColor+.swift */; };
+		E963C6A525BAC1DD0065EBCB /* VDSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C6A425BAC1DD0065EBCB /* VDSTextField.swift */; };
+		E963C6AB25BAC5920065EBCB /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C6AA25BAC5920065EBCB /* UIFont+.swift */; };
+		E963C6AF25BAC76D0065EBCB /* AppleLoginHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C6AE25BAC76D0065EBCB /* AppleLoginHelper.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E963C68725BAC1120065EBCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E963C62325BAA60E0065EBCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E963C67C25BAC1120065EBCB;
+			remoteInfo = PoingDesignSystem;
+		};
+		E963C68925BAC1120065EBCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E963C62325BAA60E0065EBCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E963C62A25BAA60E0065EBCB;
+			remoteInfo = SparkRefactoring;
+		};
+		E963C69025BAC1120065EBCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E963C62325BAA60E0065EBCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E963C67C25BAC1120065EBCB;
+			remoteInfo = PoingDesignSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E963C69325BAC1120065EBCB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E963C69425BAC1120065EBCB /* PoingDesignSystem.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6E0A537223CCFE6BEE894551 /* Pods_SparkRefactoring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkRefactoring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F54737D082FA84A58B99D90 /* Pods-SparkRefactoring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkRefactoring.release.xcconfig"; path = "Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring.release.xcconfig"; sourceTree = "<group>"; };
+		B1044E96CAEF05A0FA388350 /* Pods-SparkRefactoring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkRefactoring.debug.xcconfig"; path = "Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring.debug.xcconfig"; sourceTree = "<group>"; };
+		E92EEEF725BAE6F60053F32D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E92EEF0025BAF8BE0053F32D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E92EEF0425BAFB180053F32D /* UITabGestureRecognizer+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabGestureRecognizer+.swift"; sourceTree = "<group>"; };
 		E963C62B25BAA60F0065EBCB /* SparkRefactoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkRefactoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E963C62E25BAA60F0065EBCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E963C63025BAA60F0065EBCB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E963C63225BAA60F0065EBCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E963C63525BAA60F0065EBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E963C63725BAA60F0065EBCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E963C63A25BAA60F0065EBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E963C63C25BAA60F0065EBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E963C66225BAAA960065EBCB /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		E963C66525BAAC0D0065EBCB /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		E963C66B25BAAE220065EBCB /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		E963C66F25BAB5690065EBCB /* AppleLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLoginButton.swift; sourceTree = "<group>"; };
+		E963C67D25BAC1120065EBCB /* PoingDesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PoingDesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E963C67F25BAC1120065EBCB /* PoingDesignSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PoingDesignSystem.h; sourceTree = "<group>"; };
+		E963C68025BAC1120065EBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E963C68525BAC1120065EBCB /* PoingDesignSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoingDesignSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E963C68C25BAC1120065EBCB /* PoingDesignSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoingDesignSystemTests.swift; sourceTree = "<group>"; };
+		E963C68E25BAC1120065EBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E963C6A025BAC1BB0065EBCB /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		E963C6A425BAC1DD0065EBCB /* VDSTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDSTextField.swift; sourceTree = "<group>"; };
+		E963C6A825BAC5800065EBCB /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		E963C6A925BAC5800065EBCB /* BalsamiqSansBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BalsamiqSansBold.ttf; sourceTree = "<group>"; };
+		E963C6AA25BAC5920065EBCB /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		E963C6AE25BAC76D0065EBCB /* AppleLoginHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLoginHelper.swift; sourceTree = "<group>"; };
+		E963C6B825BADCA50065EBCB /* SparkRefactoring.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SparkRefactoring.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +107,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A95DB693A0599677F77123F /* Pods_SparkRefactoring.framework in Frameworks */,
+				E963C69225BAC1120065EBCB /* PoingDesignSystem.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E963C67A25BAC1120065EBCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E963C68225BAC1120065EBCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E963C68625BAC1120065EBCB /* PoingDesignSystem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E92EEEFD25BAF78F0053F32D /* MyVoca */ = {
+			isa = PBXGroup;
+			children = (
+				E92EEF0025BAF8BE0053F32D /* HomeViewController.swift */,
+			);
+			path = MyVoca;
+			sourceTree = "<group>";
+		};
+		E92EEEFE25BAF7A10053F32D /* Game */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		E92EEEFF25BAF7B40053F32D /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		E963C62225BAA60E0065EBCB = {
 			isa = PBXGroup;
 			children = (
+				E963C66525BAAC0D0065EBCB /* .swiftlint.yml */,
 				E963C62D25BAA60F0065EBCB /* SparkRefactoring */,
+				E963C67E25BAC1120065EBCB /* PoingDesignSystem */,
+				E963C68B25BAC1120065EBCB /* PoingDesignSystemTests */,
 				E963C62C25BAA60F0065EBCB /* Products */,
+				F34FFC71D7E12152A778AA68 /* Pods */,
+				F03D6E6F00E753358ED05410 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +169,8 @@
 			isa = PBXGroup;
 			children = (
 				E963C62B25BAA60F0065EBCB /* SparkRefactoring.app */,
+				E963C67D25BAC1120065EBCB /* PoingDesignSystem.framework */,
+				E963C68525BAC1120065EBCB /* PoingDesignSystemTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,36 +178,186 @@
 		E963C62D25BAA60F0065EBCB /* SparkRefactoring */ = {
 			isa = PBXGroup;
 			children = (
+				E92EEEFF25BAF7B40053F32D /* Setting */,
+				E92EEEFE25BAF7A10053F32D /* Game */,
+				E92EEEFD25BAF78F0053F32D /* MyVoca */,
+				E963C6B825BADCA50065EBCB /* SparkRefactoring.entitlements */,
+				E963C67725BABF030065EBCB /* Resource */,
+				E963C66E25BAB3CF0065EBCB /* Login */,
+				E963C66125BAAA780065EBCB /* Splash */,
 				E963C62E25BAA60F0065EBCB /* AppDelegate.swift */,
 				E963C63025BAA60F0065EBCB /* SceneDelegate.swift */,
 				E963C63225BAA60F0065EBCB /* ViewController.swift */,
-				E963C63425BAA60F0065EBCB /* Main.storyboard */,
-				E963C63725BAA60F0065EBCB /* Assets.xcassets */,
 				E963C63925BAA60F0065EBCB /* LaunchScreen.storyboard */,
 				E963C63C25BAA60F0065EBCB /* Info.plist */,
 			);
 			path = SparkRefactoring;
 			sourceTree = "<group>";
 		};
+		E963C66125BAAA780065EBCB /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				E963C66225BAAA960065EBCB /* SplashViewController.swift */,
+				E963C66B25BAAE220065EBCB /* Splash.storyboard */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		E963C66E25BAB3CF0065EBCB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E963C66F25BAB5690065EBCB /* AppleLoginButton.swift */,
+				E92EEEF725BAE6F60053F32D /* LoginViewController.swift */,
+				E963C6AE25BAC76D0065EBCB /* AppleLoginHelper.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E963C67725BABF030065EBCB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E963C63725BAA60F0065EBCB /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E963C67E25BAC1120065EBCB /* PoingDesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				E963C69F25BAC15B0065EBCB /* Utils */,
+				E963C69E25BAC14F0065EBCB /* NavigationView */,
+				E963C69D25BAC1400065EBCB /* Resources */,
+				E963C67F25BAC1120065EBCB /* PoingDesignSystem.h */,
+				E963C68025BAC1120065EBCB /* Info.plist */,
+			);
+			path = PoingDesignSystem;
+			sourceTree = "<group>";
+		};
+		E963C68B25BAC1120065EBCB /* PoingDesignSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				E963C68C25BAC1120065EBCB /* PoingDesignSystemTests.swift */,
+				E963C68E25BAC1120065EBCB /* Info.plist */,
+			);
+			path = PoingDesignSystemTests;
+			sourceTree = "<group>";
+		};
+		E963C69D25BAC1400065EBCB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E963C6A925BAC5800065EBCB /* BalsamiqSansBold.ttf */,
+				E963C6A825BAC5800065EBCB /* Quicksand-Bold.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E963C69E25BAC14F0065EBCB /* NavigationView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NavigationView;
+			sourceTree = "<group>";
+		};
+		E963C69F25BAC15B0065EBCB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E963C6A025BAC1BB0065EBCB /* UIColor+.swift */,
+				E92EEF0425BAFB180053F32D /* UITabGestureRecognizer+.swift */,
+				E963C6A425BAC1DD0065EBCB /* VDSTextField.swift */,
+				E963C6AA25BAC5920065EBCB /* UIFont+.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F03D6E6F00E753358ED05410 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E0A537223CCFE6BEE894551 /* Pods_SparkRefactoring.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F34FFC71D7E12152A778AA68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1044E96CAEF05A0FA388350 /* Pods-SparkRefactoring.debug.xcconfig */,
+				7F54737D082FA84A58B99D90 /* Pods-SparkRefactoring.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E963C67825BAC1120065EBCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E963C68F25BAC1120065EBCB /* PoingDesignSystem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		E963C62A25BAA60E0065EBCB /* SparkRefactoring */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E963C63F25BAA60F0065EBCB /* Build configuration list for PBXNativeTarget "SparkRefactoring" */;
 			buildPhases = (
+				13F518DBBFC2268A1FB8942C /* [CP] Check Pods Manifest.lock */,
 				E963C62725BAA60E0065EBCB /* Sources */,
 				E963C62825BAA60E0065EBCB /* Frameworks */,
 				E963C62925BAA60E0065EBCB /* Resources */,
+				AA4FC88EA3FBBFF302F195EB /* [CP] Embed Pods Frameworks */,
+				E963C66825BAAD3E0065EBCB /* Swiftlint Script */,
+				E963C69325BAC1120065EBCB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E963C69125BAC1120065EBCB /* PBXTargetDependency */,
 			);
 			name = SparkRefactoring;
 			productName = SparkRefactoring;
 			productReference = E963C62B25BAA60F0065EBCB /* SparkRefactoring.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E963C67C25BAC1120065EBCB /* PoingDesignSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E963C69525BAC1120065EBCB /* Build configuration list for PBXNativeTarget "PoingDesignSystem" */;
+			buildPhases = (
+				E963C67825BAC1120065EBCB /* Headers */,
+				E963C67925BAC1120065EBCB /* Sources */,
+				E963C67A25BAC1120065EBCB /* Frameworks */,
+				E963C67B25BAC1120065EBCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoingDesignSystem;
+			productName = PoingDesignSystem;
+			productReference = E963C67D25BAC1120065EBCB /* PoingDesignSystem.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E963C68425BAC1120065EBCB /* PoingDesignSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E963C69825BAC1120065EBCB /* Build configuration list for PBXNativeTarget "PoingDesignSystemTests" */;
+			buildPhases = (
+				E963C68125BAC1120065EBCB /* Sources */,
+				E963C68225BAC1120065EBCB /* Frameworks */,
+				E963C68325BAC1120065EBCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E963C68825BAC1120065EBCB /* PBXTargetDependency */,
+				E963C68A25BAC1120065EBCB /* PBXTargetDependency */,
+			);
+			name = PoingDesignSystemTests;
+			productName = PoingDesignSystemTests;
+			productReference = E963C68525BAC1120065EBCB /* PoingDesignSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +370,14 @@
 				TargetAttributes = {
 					E963C62A25BAA60E0065EBCB = {
 						CreatedOnToolsVersion = 12.3;
+					};
+					E963C67C25BAC1120065EBCB = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+					E963C68425BAC1120065EBCB = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E963C62A25BAA60E0065EBCB;
 					};
 				};
 			};
@@ -115,6 +395,8 @@
 			projectRoot = "";
 			targets = (
 				E963C62A25BAA60E0065EBCB /* SparkRefactoring */,
+				E963C67C25BAC1120065EBCB /* PoingDesignSystem */,
+				E963C68425BAC1120065EBCB /* PoingDesignSystemTests */,
 			);
 		};
 /* End PBXProject section */
@@ -124,36 +406,145 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E963C66625BAAC0D0065EBCB /* .swiftlint.yml in Resources */,
 				E963C63B25BAA60F0065EBCB /* LaunchScreen.storyboard in Resources */,
 				E963C63825BAA60F0065EBCB /* Assets.xcassets in Resources */,
-				E963C63625BAA60F0065EBCB /* Main.storyboard in Resources */,
+				E963C66C25BAAE220065EBCB /* Splash.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E963C67B25BAC1120065EBCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E963C68325BAC1120065EBCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13F518DBBFC2268A1FB8942C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SparkRefactoring-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA4FC88EA3FBBFF302F195EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E963C66825BAAD3E0065EBCB /* Swiftlint Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swiftlint Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E963C62725BAA60E0065EBCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E92EEEF825BAE6F60053F32D /* LoginViewController.swift in Sources */,
+				E963C6AF25BAC76D0065EBCB /* AppleLoginHelper.swift in Sources */,
 				E963C63325BAA60F0065EBCB /* ViewController.swift in Sources */,
+				E92EEF0125BAF8BE0053F32D /* HomeViewController.swift in Sources */,
+				E963C67025BAB5690065EBCB /* AppleLoginButton.swift in Sources */,
 				E963C62F25BAA60F0065EBCB /* AppDelegate.swift in Sources */,
 				E963C63125BAA60F0065EBCB /* SceneDelegate.swift in Sources */,
+				E963C66325BAAA960065EBCB /* SplashViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E963C67925BAC1120065EBCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E963C6A125BAC1BB0065EBCB /* UIColor+.swift in Sources */,
+				E963C6AB25BAC5920065EBCB /* UIFont+.swift in Sources */,
+				E963C6A525BAC1DD0065EBCB /* VDSTextField.swift in Sources */,
+				E92EEF0525BAFB180053F32D /* UITabGestureRecognizer+.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E963C68125BAC1120065EBCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E963C68D25BAC1120065EBCB /* PoingDesignSystemTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		E963C63425BAA60F0065EBCB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E963C63525BAA60F0065EBCB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		E963C68825BAC1120065EBCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E963C67C25BAC1120065EBCB /* PoingDesignSystem */;
+			targetProxy = E963C68725BAC1120065EBCB /* PBXContainerItemProxy */;
 		};
+		E963C68A25BAC1120065EBCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E963C62A25BAA60E0065EBCB /* SparkRefactoring */;
+			targetProxy = E963C68925BAC1120065EBCB /* PBXContainerItemProxy */;
+		};
+		E963C69125BAC1120065EBCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E963C67C25BAC1120065EBCB /* PoingDesignSystem */;
+			targetProxy = E963C69025BAC1120065EBCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		E963C63925BAA60F0065EBCB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,9 +674,12 @@
 		};
 		E963C64025BAA60F0065EBCB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1044E96CAEF05A0FA388350 /* Pods-SparkRefactoring.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SparkRefactoring/SparkRefactoring.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M96L4WMU9C;
 				INFOPLIST_FILE = SparkRefactoring/Info.plist;
@@ -293,7 +687,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hanteo.SparkRefactoring;
+				PRODUCT_BUNDLE_IDENTIFIER = com.odyflame.SparkRefactoring;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,9 +696,12 @@
 		};
 		E963C64125BAA60F0065EBCB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F54737D082FA84A58B99D90 /* Pods-SparkRefactoring.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SparkRefactoring/SparkRefactoring.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M96L4WMU9C;
 				INFOPLIST_FILE = SparkRefactoring/Info.plist;
@@ -312,10 +709,107 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hanteo.SparkRefactoring;
+				PRODUCT_BUNDLE_IDENTIFIER = com.odyflame.SparkRefactoring;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E963C69625BAC1120065EBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M96L4WMU9C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PoingDesignSystem/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Refactoring.Spark.PoingDesignSystem;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E963C69725BAC1120065EBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M96L4WMU9C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PoingDesignSystem/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Refactoring.Spark.PoingDesignSystem;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E963C69925BAC1120065EBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M96L4WMU9C;
+				INFOPLIST_FILE = PoingDesignSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Refactoring.Spark.PoingDesignSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SparkRefactoring.app/SparkRefactoring";
+			};
+			name = Debug;
+		};
+		E963C69A25BAC1120065EBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M96L4WMU9C;
+				INFOPLIST_FILE = PoingDesignSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Refactoring.Spark.PoingDesignSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SparkRefactoring.app/SparkRefactoring";
 			};
 			name = Release;
 		};
@@ -336,6 +830,24 @@
 			buildConfigurations = (
 				E963C64025BAA60F0065EBCB /* Debug */,
 				E963C64125BAA60F0065EBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E963C69525BAC1120065EBCB /* Build configuration list for PBXNativeTarget "PoingDesignSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E963C69625BAC1120065EBCB /* Debug */,
+				E963C69725BAC1120065EBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E963C69825BAC1120065EBCB /* Build configuration list for PBXNativeTarget "PoingDesignSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E963C69925BAC1120065EBCB /* Debug */,
+				E963C69A25BAC1120065EBCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

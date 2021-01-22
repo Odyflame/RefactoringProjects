@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '14.0'
+use_frameworks!
+
+def basicFrameworks
+pod 'SnapKit', '~> 5.0.0'
+pod 'Kingfisher', '~> 6.0'
+end
+
+target 'SparkRefactoring' do
+    basicFrameworks
+    
+# Firebase
+pod 'Firebase/Analytics'
+pod 'Firebase/Crashlytics'
+pod 'Firebase/Performance'
+
+  pod 'SwiftLint'
+  pod 'Moya/RxSwift'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod "KeyboardObserver", '~> 2.1'
+  
+end
+
+target 'PoingDesignSystem' do
+end

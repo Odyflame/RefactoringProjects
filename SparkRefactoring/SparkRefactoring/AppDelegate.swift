@@ -10,10 +10,20 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+    var window: UIWindow?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+    
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let spalshViewcontroller = UIStoryboard(name: "Splash", bundle: nil).instantiateViewController(identifier: "SplashViewController") as UIViewController
+        
+        let viewController = spalshViewcontroller
+        
+        self.window?.rootViewController = viewController
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 
