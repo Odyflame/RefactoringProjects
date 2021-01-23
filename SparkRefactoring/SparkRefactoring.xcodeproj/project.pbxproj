@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4A95DB693A0599677F77123F /* Pods_SparkRefactoring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0A537223CCFE6BEE894551 /* Pods_SparkRefactoring.framework */; };
+		E90DC49F25BC30EF003ADE71 /* VocaCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DC49E25BC30EF003ADE71 /* VocaCoreDataManager.swift */; };
+		E90DC4A625BC376D003ADE71 /* Notification.Name+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DC4A525BC376D003ADE71 /* Notification.Name+.swift */; };
 		E91A057C25BC255E003579A7 /* Voca.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E91A057A25BC255E003579A7 /* Voca.xcdatamodeld */; };
 		E91A059125BC271A003579A7 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A059025BC271A003579A7 /* Word.swift */; };
 		E91A059825BC2723003579A7 /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A059725BC2723003579A7 /* Folder.swift */; };
@@ -119,6 +121,8 @@
 		6E0A537223CCFE6BEE894551 /* Pods_SparkRefactoring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkRefactoring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F54737D082FA84A58B99D90 /* Pods-SparkRefactoring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkRefactoring.release.xcconfig"; path = "Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring.release.xcconfig"; sourceTree = "<group>"; };
 		B1044E96CAEF05A0FA388350 /* Pods-SparkRefactoring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkRefactoring.debug.xcconfig"; path = "Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring.debug.xcconfig"; sourceTree = "<group>"; };
+		E90DC49E25BC30EF003ADE71 /* VocaCoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocaCoreDataManager.swift; sourceTree = "<group>"; };
+		E90DC4A525BC376D003ADE71 /* Notification.Name+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification.Name+.swift"; sourceTree = "<group>"; };
 		E91A057B25BC255E003579A7 /* Voca.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Voca.xcdatamodel; sourceTree = "<group>"; };
 		E91A059025BC271A003579A7 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		E91A059725BC2723003579A7 /* Folder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
@@ -224,6 +228,7 @@
 				E91A05B725BC2AD4003579A7 /* ManagedWord+CoreDataProperties.swift */,
 				E91A05AD25BC2ACC003579A7 /* ManagedGroup+CoreDataClass.swift */,
 				E91A05AE25BC2ACD003579A7 /* ManagedGroup+CoreDataProperties.swift */,
+				E90DC49E25BC30EF003ADE71 /* VocaCoreDataManager.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -409,6 +414,7 @@
 		E9D3423C25BC2029006A7EF6 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				E90DC4A525BC376D003ADE71 /* Notification.Name+.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -798,8 +804,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E91A05B925BC2AD4003579A7 /* ManagedWord+CoreDataProperties.swift in Sources */,
+				E90DC4A625BC376D003ADE71 /* Notification.Name+.swift in Sources */,
 				E91A057C25BC255E003579A7 /* Voca.xcdatamodeld in Sources */,
 				E91A059125BC271A003579A7 /* Word.swift in Sources */,
+				E90DC49F25BC30EF003ADE71 /* VocaCoreDataManager.swift in Sources */,
 				E91A05AF25BC2ACD003579A7 /* ManagedGroup+CoreDataClass.swift in Sources */,
 				E91A05B025BC2ACD003579A7 /* ManagedGroup+CoreDataProperties.swift in Sources */,
 				E91A059825BC2723003579A7 /* Folder.swift in Sources */,
