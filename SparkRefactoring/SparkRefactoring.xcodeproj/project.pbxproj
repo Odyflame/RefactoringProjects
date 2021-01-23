@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4A95DB693A0599677F77123F /* Pods_SparkRefactoring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0A537223CCFE6BEE894551 /* Pods_SparkRefactoring.framework */; };
+		E91A057C25BC255E003579A7 /* Voca.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E91A057A25BC255E003579A7 /* Voca.xcdatamodeld */; };
+		E91A059125BC271A003579A7 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A059025BC271A003579A7 /* Word.swift */; };
+		E91A059825BC2723003579A7 /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A059725BC2723003579A7 /* Folder.swift */; };
+		E91A05AF25BC2ACD003579A7 /* ManagedGroup+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A05AD25BC2ACC003579A7 /* ManagedGroup+CoreDataClass.swift */; };
+		E91A05B025BC2ACD003579A7 /* ManagedGroup+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A05AE25BC2ACD003579A7 /* ManagedGroup+CoreDataProperties.swift */; };
+		E91A05B825BC2AD4003579A7 /* ManagedWord+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A05B625BC2AD3003579A7 /* ManagedWord+CoreDataClass.swift */; };
+		E91A05B925BC2AD4003579A7 /* ManagedWord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A05B725BC2AD4003579A7 /* ManagedWord+CoreDataProperties.swift */; };
 		E92EEEF825BAE6F60053F32D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92EEEF725BAE6F60053F32D /* LoginViewController.swift */; };
 		E92EEF0125BAF8BE0053F32D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92EEF0025BAF8BE0053F32D /* HomeViewController.swift */; };
 		E92EEF0525BAFB180053F32D /* UITabGestureRecognizer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92EEF0425BAFB180053F32D /* UITabGestureRecognizer+.swift */; };
@@ -112,6 +119,13 @@
 		6E0A537223CCFE6BEE894551 /* Pods_SparkRefactoring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkRefactoring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F54737D082FA84A58B99D90 /* Pods-SparkRefactoring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkRefactoring.release.xcconfig"; path = "Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring.release.xcconfig"; sourceTree = "<group>"; };
 		B1044E96CAEF05A0FA388350 /* Pods-SparkRefactoring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkRefactoring.debug.xcconfig"; path = "Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring.debug.xcconfig"; sourceTree = "<group>"; };
+		E91A057B25BC255E003579A7 /* Voca.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Voca.xcdatamodel; sourceTree = "<group>"; };
+		E91A059025BC271A003579A7 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		E91A059725BC2723003579A7 /* Folder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
+		E91A05AD25BC2ACC003579A7 /* ManagedGroup+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ManagedGroup+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E91A05AE25BC2ACD003579A7 /* ManagedGroup+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ManagedGroup+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E91A05B625BC2AD3003579A7 /* ManagedWord+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ManagedWord+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E91A05B725BC2AD4003579A7 /* ManagedWord+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ManagedWord+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E92EEEF725BAE6F60053F32D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E92EEF0025BAF8BE0053F32D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E92EEF0425BAFB180053F32D /* UITabGestureRecognizer+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabGestureRecognizer+.swift"; sourceTree = "<group>"; };
@@ -203,6 +217,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E91A058225BC26A2003579A7 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E91A05B625BC2AD3003579A7 /* ManagedWord+CoreDataClass.swift */,
+				E91A05B725BC2AD4003579A7 /* ManagedWord+CoreDataProperties.swift */,
+				E91A05AD25BC2ACC003579A7 /* ManagedGroup+CoreDataClass.swift */,
+				E91A05AE25BC2ACD003579A7 /* ManagedGroup+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		E92EEEFD25BAF78F0053F32D /* MyVoca */ = {
 			isa = PBXGroup;
 			children = (
@@ -352,11 +377,13 @@
 		E9D3421B25BC200B006A7EF6 /* PoingVocaSubsystem */ = {
 			isa = PBXGroup;
 			children = (
+				E91A058225BC26A2003579A7 /* CoreData */,
 				E9D3423D25BC2033006A7EF6 /* VocaDownload */,
 				E9D3423C25BC2029006A7EF6 /* Utils */,
 				E9D3423B25BC2020006A7EF6 /* NetWork */,
 				E9D3421C25BC200B006A7EF6 /* PoingVocaSubsystem.h */,
 				E9D3421D25BC200B006A7EF6 /* Info.plist */,
+				E91A057A25BC255E003579A7 /* Voca.xcdatamodeld */,
 			);
 			path = PoingVocaSubsystem;
 			sourceTree = "<group>";
@@ -373,6 +400,8 @@
 		E9D3423B25BC2020006A7EF6 /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
+				E91A059025BC271A003579A7 /* Word.swift */,
+				E91A059725BC2723003579A7 /* Folder.swift */,
 			);
 			path = NetWork;
 			sourceTree = "<group>";
@@ -585,6 +614,7 @@
 					};
 					E9D3421925BC200B006A7EF6 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					E9D3422125BC200B006A7EF6 = {
 						CreatedOnToolsVersion = 12.3;
@@ -767,6 +797,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91A05B925BC2AD4003579A7 /* ManagedWord+CoreDataProperties.swift in Sources */,
+				E91A057C25BC255E003579A7 /* Voca.xcdatamodeld in Sources */,
+				E91A059125BC271A003579A7 /* Word.swift in Sources */,
+				E91A05AF25BC2ACD003579A7 /* ManagedGroup+CoreDataClass.swift in Sources */,
+				E91A05B025BC2ACD003579A7 /* ManagedGroup+CoreDataProperties.swift in Sources */,
+				E91A059825BC2723003579A7 /* Folder.swift in Sources */,
+				E91A05B825BC2AD4003579A7 /* ManagedWord+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1097,6 +1134,7 @@
 		E9D3423225BC200B006A7EF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1114,6 +1152,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Refactoring.Spark.PoingVocaSubsystem;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1124,6 +1163,7 @@
 		E9D3423325BC200B006A7EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1309,6 +1349,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E91A057A25BC255E003579A7 /* Voca.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E91A057B25BC255E003579A7 /* Voca.xcdatamodel */,
+			);
+			currentVersion = E91A057B25BC255E003579A7 /* Voca.xcdatamodel */;
+			path = Voca.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E963C62325BAA60E0065EBCB /* Project object */;
 }
