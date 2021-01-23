@@ -29,6 +29,7 @@
 		E963C6A525BAC1DD0065EBCB /* VDSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C6A425BAC1DD0065EBCB /* VDSTextField.swift */; };
 		E963C6AB25BAC5920065EBCB /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C6AA25BAC5920065EBCB /* UIFont+.swift */; };
 		E963C6AF25BAC76D0065EBCB /* AppleLoginHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C6AE25BAC76D0065EBCB /* AppleLoginHelper.swift */; };
+		E9D3421225BC1A4F006A7EF6 /* UserDefaults+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3421125BC1A4F006A7EF6 /* UserDefaults+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,7 @@
 		E963C6AA25BAC5920065EBCB /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
 		E963C6AE25BAC76D0065EBCB /* AppleLoginHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLoginHelper.swift; sourceTree = "<group>"; };
 		E963C6B825BADCA50065EBCB /* SparkRefactoring.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SparkRefactoring.entitlements; sourceTree = "<group>"; };
+		E9D3421125BC1A4F006A7EF6 /* UserDefaults+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +265,7 @@
 			children = (
 				E963C6A025BAC1BB0065EBCB /* UIColor+.swift */,
 				E92EEF0425BAFB180053F32D /* UITabGestureRecognizer+.swift */,
+				E9D3421125BC1A4F006A7EF6 /* UserDefaults+.swift */,
 				E963C6A425BAC1DD0065EBCB /* VDSTextField.swift */,
 				E963C6AA25BAC5920065EBCB /* UIFont+.swift */,
 			);
@@ -511,6 +514,7 @@
 			files = (
 				E963C6A125BAC1BB0065EBCB /* UIColor+.swift in Sources */,
 				E963C6AB25BAC5920065EBCB /* UIFont+.swift in Sources */,
+				E9D3421225BC1A4F006A7EF6 /* UserDefaults+.swift in Sources */,
 				E963C6A525BAC1DD0065EBCB /* VDSTextField.swift in Sources */,
 				E92EEF0525BAFB180053F32D /* UITabGestureRecognizer+.swift in Sources */,
 			);

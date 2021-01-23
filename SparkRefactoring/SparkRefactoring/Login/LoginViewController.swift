@@ -23,7 +23,7 @@ class LoginViewController: UIViewController {
         
         enum Terms {
             static let text = "가입을 진행할 경우, 서비스 약관 및 개인정보 처리방침에 동의하게 된다."
-            static let privacyRange = NSRange(location: 21, length: 9)
+            static let privacyRange = NSRange(location: 21, length: 9) //
             static let privacyLink = "https://www.notion.so/haeuncs/d1b48a54c9d94a07857764b39b1d53e8"
             static let termsRange = NSRange(location: 12, length: 6)
             static let termsLink = "https://www.notion.so/haeuncs/72dc72dd9c704835ad7d46c64d8dddd6"
@@ -169,11 +169,22 @@ class LoginViewController: UIViewController {
     }()
     
     @objc func termsTapGesture(_ gesture: UITapGestureRecognizer) {
-        
+        if gesture.didTapAttributedTextInLabel(label: termsLabel, inRange: Constant.Terms.privacyRange) {
+            if let url = URL(string: Constant.Terms.privacyLink) {
+                UIApplication.shared.open(url)
+            }
+
+        } else if gesture.didTapAttributedTextInLabel(label: termsLabel, inRange: Constant.Terms.termsRange) {
+            if let url = URL(string: Constant.Terms.termsLink) {
+                UIApplication.shared.open(url)
+            }
+
+        }
     }
     
     @objc func appleLoginDidTap(_ sender: UIButton) {
-        
+        AppleLoginHelper.shared.setDelegate(self)
+        AppleLoginHelper.shared.handleAppleIDRequest()
     }
     
     func configureRx() {
@@ -181,7 +192,8 @@ class LoginViewController: UIViewController {
     }
     
     func requestLogin(credential: String, name: String) {
-        
+        //UserController.shared.login
+        self.transitionToHome()
     }
     
     func requestSignUp(credential: String, name: String) {
@@ -189,7 +201,22 @@ class LoginViewController: UIViewController {
     }
     
     private func transitionToHome() {
+        guard let window = UIApplication.shared.windows.filter({ $0.isKeyWindow }).first else {
+            return
+        }
         
+        let viewController = UINavigationController(rootViewController: HomeViewController())
+        
+        window.rootViewController = viewController
+        let options: UIView.AnimationOptions = .transitionCrossDissolve
+        let duration: TimeInterval = 0.3
+        
+        UIView.transition(
+            with: window,
+            duration: duration,
+            options: options,
+            animations: {},
+            completion: nil)
     }
 }
 
