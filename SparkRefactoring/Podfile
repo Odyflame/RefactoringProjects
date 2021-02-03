@@ -25,3 +25,15 @@ end
 
 target 'PoingDesignSystem' do
 end
+
+target 'PoingVocaSubsystem' do
+  pod 'Moya/RxSwift'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+end
+
+target 'VocaGame' do
+  basicFrameworks
+  pod 'RxSwift'
+  pod 'RxCocoa'
+end

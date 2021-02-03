@@ -10,7 +10,7 @@ import UIKit.UIColor
 
 public extension UIColor {
 
-    class var greyblue20: UIColor {
+    public class var greyblue20: UIColor {
         return UIColor(red: 138.0 / 255.0, green: 149.0 / 255.0, blue: 158.0 / 255.0, alpha: 0.2)
     }
 
@@ -54,7 +54,7 @@ public extension UIColor {
         return UIColor(red: 90.0 / 255.0, green: 92.0 / 255.0, blue: 102.0 / 255.0, alpha: 1.0)
     }
 
-    class var gameBackgroundColor: UIColor {
+    public class var gameBackgroundColor: UIColor {
         return UIColor(red: 1.0, green: 253.0 / 255.0, blue: 240.0 / 255.0, alpha: 1.0)
     }
 

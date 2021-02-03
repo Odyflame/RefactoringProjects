@@ -34,4 +34,43 @@ class HomeViewController: UIViewController {
     var disposebag = DisposeBag()
     var currentTabType: HomeTabType = .myvoca
     
+    lazy var headerView: HomeHeaderView = {
+        let view = HomeHeaderView(
+            titles: Constant.headerTitle,
+            activeTabType: currentTabType,
+            delegate: self
+        )
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
+}
+
+extension HomeViewController: HomeHeaderDelegate {
+    func homeHeader(_ view: HomeHeaderView, selectedTab: HomeTabType) {
+        <#code#>
+    }
+    
+    func homeHeader(_ view: HomeHeaderView, settingDidTap button: UIButton) {
+        <#code#>
+    }
+}
+
+extension HomeViewController: UIPageViewControllerDelegate {
+    func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
+        guard completed, let viewController = previousViewControllers.first else {
+            return
+        }
+        
+        if viewController == myV
+    }
+}
+
+extension HomeViewController: UIPageViewControllerDataSource {
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
+        <#code#>
+    }
+    
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
+        <#code#>
+    }
 }

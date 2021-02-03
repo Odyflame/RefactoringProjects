@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FAA0141F25801CD732EC6EA /* Pods_VocaGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B500A67AEC51CF1DB1AE50E /* Pods_VocaGame.framework */; };
 		4A95DB693A0599677F77123F /* Pods_SparkRefactoring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0A537223CCFE6BEE894551 /* Pods_SparkRefactoring.framework */; };
+		77676F15C6C355978767D453 /* Pods_PoingDesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1AFA8D2E014CE1BAF33430 /* Pods_PoingDesignSystem.framework */; };
 		E90DC49F25BC30EF003ADE71 /* VocaCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DC49E25BC30EF003ADE71 /* VocaCoreDataManager.swift */; };
 		E90DC4A625BC376D003ADE71 /* Notification.Name+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DC4A525BC376D003ADE71 /* Notification.Name+.swift */; };
 		E91A057C25BC255E003579A7 /* Voca.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E91A057A25BC255E003579A7 /* Voca.xcdatamodeld */; };
@@ -20,6 +22,10 @@
 		E92EEEF825BAE6F60053F32D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92EEEF725BAE6F60053F32D /* LoginViewController.swift */; };
 		E92EEF0125BAF8BE0053F32D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92EEF0025BAF8BE0053F32D /* HomeViewController.swift */; };
 		E92EEF0525BAFB180053F32D /* UITabGestureRecognizer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92EEF0425BAFB180053F32D /* UITabGestureRecognizer+.swift */; };
+		E9525EB725C415F1008A7603 /* ServerURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9525EB625C415F1008A7603 /* ServerURL.swift */; };
+		E9525EBE25C4160C008A7603 /* BaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9525EBD25C4160C008A7603 /* BaseManager.swift */; };
+		E9525EC525C41639008A7603 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9525EC425C41639008A7603 /* UserInfo.swift */; };
+		E9525ECC25C416F8008A7603 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9525ECB25C416F8008A7603 /* UserService.swift */; };
 		E963C62F25BAA60F0065EBCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C62E25BAA60F0065EBCB /* AppDelegate.swift */; };
 		E963C63125BAA60F0065EBCB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C63025BAA60F0065EBCB /* SceneDelegate.swift */; };
 		E963C63325BAA60F0065EBCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C63225BAA60F0065EBCB /* ViewController.swift */; };
@@ -38,6 +44,12 @@
 		E963C6A525BAC1DD0065EBCB /* VDSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C6A425BAC1DD0065EBCB /* VDSTextField.swift */; };
 		E963C6AB25BAC5920065EBCB /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C6AA25BAC5920065EBCB /* UIFont+.swift */; };
 		E963C6AF25BAC76D0065EBCB /* AppleLoginHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C6AE25BAC76D0065EBCB /* AppleLoginHelper.swift */; };
+		E974F23F25C29531009DA167 /* VocaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E974F23E25C29531009DA167 /* VocaManager.swift */; };
+		E9AB4F1425C95E01008DAB0C /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB4F1325C95E01008DAB0C /* HomeHeaderView.swift */; };
+		E9AB4F1D25C96E30008DAB0C /* MyVocaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB4F1C25C96E30008DAB0C /* MyVocaViewController.swift */; };
+		E9AB4F2425C9707D008DAB0C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB4F2325C9707D008DAB0C /* GameViewController.swift */; };
+		E9AB4F2B25C97084008DAB0C /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB4F2A25C97084008DAB0C /* GameCell.swift */; };
+		E9AB4F3225C974C9008DAB0C /* CALayer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB4F3125C974C9008DAB0C /* CALayer+.swift */; };
 		E9D3421225BC1A4F006A7EF6 /* UserDefaults+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3421125BC1A4F006A7EF6 /* UserDefaults+.swift */; };
 		E9D3422325BC200B006A7EF6 /* PoingVocaSubsystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D3421A25BC200B006A7EF6 /* PoingVocaSubsystem.framework */; };
 		E9D3422A25BC200B006A7EF6 /* PoingVocaSubsystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3422925BC200B006A7EF6 /* PoingVocaSubsystemTests.swift */; };
@@ -47,6 +59,7 @@
 		E9D3424725BC2060006A7EF6 /* VocaGame.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D3424525BC2060006A7EF6 /* VocaGame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9D3424A25BC2060006A7EF6 /* VocaGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D3424325BC2060006A7EF6 /* VocaGame.framework */; };
 		E9D3424B25BC2060006A7EF6 /* VocaGame.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9D3424325BC2060006A7EF6 /* VocaGame.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FE13639AD06A95DEEBDBB623 /* Pods_PoingVocaSubsystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0861BBC37A845D6C7EFB2B /* Pods_PoingVocaSubsystem.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,8 +131,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0B0861BBC37A845D6C7EFB2B /* Pods_PoingVocaSubsystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoingVocaSubsystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B500A67AEC51CF1DB1AE50E /* Pods_VocaGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VocaGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EFC8A7EDC0BD4EEE22A4993 /* Pods-PoingVocaSubsystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoingVocaSubsystem.debug.xcconfig"; path = "Target Support Files/Pods-PoingVocaSubsystem/Pods-PoingVocaSubsystem.debug.xcconfig"; sourceTree = "<group>"; };
+		311E47746EC38AFC7CF6291D /* Pods-PoingVocaSubsystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoingVocaSubsystem.release.xcconfig"; path = "Target Support Files/Pods-PoingVocaSubsystem/Pods-PoingVocaSubsystem.release.xcconfig"; sourceTree = "<group>"; };
+		35298E50DDD1DD8A86446BB3 /* Pods-VocaGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocaGame.release.xcconfig"; path = "Target Support Files/Pods-VocaGame/Pods-VocaGame.release.xcconfig"; sourceTree = "<group>"; };
+		3F1AFA8D2E014CE1BAF33430 /* Pods_PoingDesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoingDesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54DBA29B48E81CA98F4C271E /* Pods-VocaGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocaGame.debug.xcconfig"; path = "Target Support Files/Pods-VocaGame/Pods-VocaGame.debug.xcconfig"; sourceTree = "<group>"; };
+		648CC25CC9663D0F6847D1E1 /* Pods-PoingDesignSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoingDesignSystem.release.xcconfig"; path = "Target Support Files/Pods-PoingDesignSystem/Pods-PoingDesignSystem.release.xcconfig"; sourceTree = "<group>"; };
 		6E0A537223CCFE6BEE894551 /* Pods_SparkRefactoring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkRefactoring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F54737D082FA84A58B99D90 /* Pods-SparkRefactoring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkRefactoring.release.xcconfig"; path = "Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring.release.xcconfig"; sourceTree = "<group>"; };
+		ABC9D5B569B7A546CAEFE098 /* Pods-PoingDesignSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoingDesignSystem.debug.xcconfig"; path = "Target Support Files/Pods-PoingDesignSystem/Pods-PoingDesignSystem.debug.xcconfig"; sourceTree = "<group>"; };
 		B1044E96CAEF05A0FA388350 /* Pods-SparkRefactoring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkRefactoring.debug.xcconfig"; path = "Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring.debug.xcconfig"; sourceTree = "<group>"; };
 		E90DC49E25BC30EF003ADE71 /* VocaCoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocaCoreDataManager.swift; sourceTree = "<group>"; };
 		E90DC4A525BC376D003ADE71 /* Notification.Name+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification.Name+.swift"; sourceTree = "<group>"; };
@@ -133,6 +155,10 @@
 		E92EEEF725BAE6F60053F32D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E92EEF0025BAF8BE0053F32D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E92EEF0425BAFB180053F32D /* UITabGestureRecognizer+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabGestureRecognizer+.swift"; sourceTree = "<group>"; };
+		E9525EB625C415F1008A7603 /* ServerURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerURL.swift; sourceTree = "<group>"; };
+		E9525EBD25C4160C008A7603 /* BaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseManager.swift; sourceTree = "<group>"; };
+		E9525EC425C41639008A7603 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		E9525ECB25C416F8008A7603 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		E963C62B25BAA60F0065EBCB /* SparkRefactoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkRefactoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E963C62E25BAA60F0065EBCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E963C63025BAA60F0065EBCB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -157,6 +183,12 @@
 		E963C6AA25BAC5920065EBCB /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
 		E963C6AE25BAC76D0065EBCB /* AppleLoginHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLoginHelper.swift; sourceTree = "<group>"; };
 		E963C6B825BADCA50065EBCB /* SparkRefactoring.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SparkRefactoring.entitlements; sourceTree = "<group>"; };
+		E974F23E25C29531009DA167 /* VocaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocaManager.swift; sourceTree = "<group>"; };
+		E9AB4F1325C95E01008DAB0C /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		E9AB4F1C25C96E30008DAB0C /* MyVocaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVocaViewController.swift; sourceTree = "<group>"; };
+		E9AB4F2325C9707D008DAB0C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E9AB4F2A25C97084008DAB0C /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+		E9AB4F3125C974C9008DAB0C /* CALayer+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+.swift"; sourceTree = "<group>"; };
 		E9D3421125BC1A4F006A7EF6 /* UserDefaults+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+.swift"; sourceTree = "<group>"; };
 		E9D3421A25BC200B006A7EF6 /* PoingVocaSubsystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PoingVocaSubsystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D3421C25BC200B006A7EF6 /* PoingVocaSubsystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PoingVocaSubsystem.h; sourceTree = "<group>"; };
@@ -185,6 +217,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77676F15C6C355978767D453 /* Pods_PoingDesignSystem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +233,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE13639AD06A95DEEBDBB623 /* Pods_PoingVocaSubsystem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +249,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FAA0141F25801CD732EC6EA /* Pods_VocaGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +264,7 @@
 				E91A05AD25BC2ACC003579A7 /* ManagedGroup+CoreDataClass.swift */,
 				E91A05AE25BC2ACD003579A7 /* ManagedGroup+CoreDataProperties.swift */,
 				E90DC49E25BC30EF003ADE71 /* VocaCoreDataManager.swift */,
+				E974F23E25C29531009DA167 /* VocaManager.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -237,6 +273,8 @@
 			isa = PBXGroup;
 			children = (
 				E92EEF0025BAF8BE0053F32D /* HomeViewController.swift */,
+				E9AB4F1C25C96E30008DAB0C /* MyVocaViewController.swift */,
+				E9AB4F1325C95E01008DAB0C /* HomeHeaderView.swift */,
 			);
 			path = MyVoca;
 			sourceTree = "<group>";
@@ -244,6 +282,8 @@
 		E92EEEFE25BAF7A10053F32D /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				E9AB4F2325C9707D008DAB0C /* GameViewController.swift */,
+				E9AB4F2A25C97084008DAB0C /* GameCell.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -253,6 +293,40 @@
 			children = (
 			);
 			path = Setting;
+			sourceTree = "<group>";
+		};
+		E9525EB225C415CA008A7603 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E91A059725BC2723003579A7 /* Folder.swift */,
+				E91A059025BC271A003579A7 /* Word.swift */,
+				E9525EC425C41639008A7603 /* UserInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E9525EB325C415D2008A7603 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E9525ECB25C416F8008A7603 /* UserService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E9525EB425C415D7008A7603 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E9525EB525C415E2008A7603 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				E9525EB625C415F1008A7603 /* ServerURL.swift */,
+				E9525EBD25C4160C008A7603 /* BaseManager.swift */,
+			);
+			path = Basic;
 			sourceTree = "<group>";
 		};
 		E963C62225BAA60E0065EBCB = {
@@ -371,6 +445,7 @@
 			isa = PBXGroup;
 			children = (
 				E963C6A025BAC1BB0065EBCB /* UIColor+.swift */,
+				E9AB4F3125C974C9008DAB0C /* CALayer+.swift */,
 				E92EEF0425BAFB180053F32D /* UITabGestureRecognizer+.swift */,
 				E9D3421125BC1A4F006A7EF6 /* UserDefaults+.swift */,
 				E963C6A425BAC1DD0065EBCB /* VDSTextField.swift */,
@@ -405,8 +480,10 @@
 		E9D3423B25BC2020006A7EF6 /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
-				E91A059025BC271A003579A7 /* Word.swift */,
-				E91A059725BC2723003579A7 /* Folder.swift */,
+				E9525EB525C415E2008A7603 /* Basic */,
+				E9525EB425C415D7008A7603 /* Controller */,
+				E9525EB325C415D2008A7603 /* Service */,
+				E9525EB225C415CA008A7603 /* Model */,
 			);
 			path = NetWork;
 			sourceTree = "<group>";
@@ -439,6 +516,9 @@
 			isa = PBXGroup;
 			children = (
 				6E0A537223CCFE6BEE894551 /* Pods_SparkRefactoring.framework */,
+				3F1AFA8D2E014CE1BAF33430 /* Pods_PoingDesignSystem.framework */,
+				0B0861BBC37A845D6C7EFB2B /* Pods_PoingVocaSubsystem.framework */,
+				0B500A67AEC51CF1DB1AE50E /* Pods_VocaGame.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -448,6 +528,12 @@
 			children = (
 				B1044E96CAEF05A0FA388350 /* Pods-SparkRefactoring.debug.xcconfig */,
 				7F54737D082FA84A58B99D90 /* Pods-SparkRefactoring.release.xcconfig */,
+				ABC9D5B569B7A546CAEFE098 /* Pods-PoingDesignSystem.debug.xcconfig */,
+				648CC25CC9663D0F6847D1E1 /* Pods-PoingDesignSystem.release.xcconfig */,
+				1EFC8A7EDC0BD4EEE22A4993 /* Pods-PoingVocaSubsystem.debug.xcconfig */,
+				311E47746EC38AFC7CF6291D /* Pods-PoingVocaSubsystem.release.xcconfig */,
+				54DBA29B48E81CA98F4C271E /* Pods-VocaGame.debug.xcconfig */,
+				35298E50DDD1DD8A86446BB3 /* Pods-VocaGame.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -510,6 +596,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E963C69525BAC1120065EBCB /* Build configuration list for PBXNativeTarget "PoingDesignSystem" */;
 			buildPhases = (
+				A0212614C2447B066C8809AA /* [CP] Check Pods Manifest.lock */,
 				E963C67825BAC1120065EBCB /* Headers */,
 				E963C67925BAC1120065EBCB /* Sources */,
 				E963C67A25BAC1120065EBCB /* Frameworks */,
@@ -547,6 +634,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9D3423125BC200B006A7EF6 /* Build configuration list for PBXNativeTarget "PoingVocaSubsystem" */;
 			buildPhases = (
+				5D62CC3864C3331E7E5A3E3A /* [CP] Check Pods Manifest.lock */,
 				E9D3421525BC200B006A7EF6 /* Headers */,
 				E9D3421625BC200B006A7EF6 /* Sources */,
 				E9D3421725BC200B006A7EF6 /* Frameworks */,
@@ -584,6 +672,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9D3424C25BC2060006A7EF6 /* Build configuration list for PBXNativeTarget "VocaGame" */;
 			buildPhases = (
+				AC4EB2E7C75464BE8C21EA53 /* [CP] Check Pods Manifest.lock */,
 				E9D3423E25BC2060006A7EF6 /* Headers */,
 				E9D3423F25BC2060006A7EF6 /* Sources */,
 				E9D3424025BC2060006A7EF6 /* Frameworks */,
@@ -726,6 +815,50 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5D62CC3864C3331E7E5A3E3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PoingVocaSubsystem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0212614C2447B066C8809AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PoingDesignSystem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		AA4FC88EA3FBBFF302F195EB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -741,6 +874,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC4EB2E7C75464BE8C21EA53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VocaGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E963C66825BAAD3E0065EBCB /* Swiftlint Script */ = {
@@ -771,11 +926,15 @@
 				E92EEEF825BAE6F60053F32D /* LoginViewController.swift in Sources */,
 				E963C6AF25BAC76D0065EBCB /* AppleLoginHelper.swift in Sources */,
 				E963C63325BAA60F0065EBCB /* ViewController.swift in Sources */,
+				E9AB4F1425C95E01008DAB0C /* HomeHeaderView.swift in Sources */,
 				E92EEF0125BAF8BE0053F32D /* HomeViewController.swift in Sources */,
+				E9AB4F1D25C96E30008DAB0C /* MyVocaViewController.swift in Sources */,
 				E963C67025BAB5690065EBCB /* AppleLoginButton.swift in Sources */,
 				E963C62F25BAA60F0065EBCB /* AppDelegate.swift in Sources */,
 				E963C63125BAA60F0065EBCB /* SceneDelegate.swift in Sources */,
+				E9AB4F2425C9707D008DAB0C /* GameViewController.swift in Sources */,
 				E963C66325BAAA960065EBCB /* SplashViewController.swift in Sources */,
+				E9AB4F2B25C97084008DAB0C /* GameCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -784,6 +943,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E963C6A125BAC1BB0065EBCB /* UIColor+.swift in Sources */,
+				E9AB4F3225C974C9008DAB0C /* CALayer+.swift in Sources */,
 				E963C6AB25BAC5920065EBCB /* UIFont+.swift in Sources */,
 				E9D3421225BC1A4F006A7EF6 /* UserDefaults+.swift in Sources */,
 				E963C6A525BAC1DD0065EBCB /* VDSTextField.swift in Sources */,
@@ -803,14 +963,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9525ECC25C416F8008A7603 /* UserService.swift in Sources */,
 				E91A05B925BC2AD4003579A7 /* ManagedWord+CoreDataProperties.swift in Sources */,
 				E90DC4A625BC376D003ADE71 /* Notification.Name+.swift in Sources */,
 				E91A057C25BC255E003579A7 /* Voca.xcdatamodeld in Sources */,
 				E91A059125BC271A003579A7 /* Word.swift in Sources */,
 				E90DC49F25BC30EF003ADE71 /* VocaCoreDataManager.swift in Sources */,
 				E91A05AF25BC2ACD003579A7 /* ManagedGroup+CoreDataClass.swift in Sources */,
+				E9525EBE25C4160C008A7603 /* BaseManager.swift in Sources */,
+				E974F23F25C29531009DA167 /* VocaManager.swift in Sources */,
+				E9525EC525C41639008A7603 /* UserInfo.swift in Sources */,
 				E91A05B025BC2ACD003579A7 /* ManagedGroup+CoreDataProperties.swift in Sources */,
 				E91A059825BC2723003579A7 /* Folder.swift in Sources */,
+				E9525EB725C415F1008A7603 /* ServerURL.swift in Sources */,
 				E91A05B825BC2AD4003579A7 /* ManagedWord+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1044,6 +1209,7 @@
 		};
 		E963C69625BAC1120065EBCB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC9D5B569B7A546CAEFE098 /* Pods-PoingDesignSystem.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1073,6 +1239,7 @@
 		};
 		E963C69725BAC1120065EBCB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 648CC25CC9663D0F6847D1E1 /* Pods-PoingDesignSystem.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1141,6 +1308,7 @@
 		};
 		E9D3423225BC200B006A7EF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EFC8A7EDC0BD4EEE22A4993 /* Pods-PoingVocaSubsystem.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1170,6 +1338,7 @@
 		};
 		E9D3423325BC200B006A7EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 311E47746EC38AFC7CF6291D /* Pods-PoingVocaSubsystem.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1238,6 +1407,7 @@
 		};
 		E9D3424D25BC2060006A7EF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54DBA29B48E81CA98F4C271E /* Pods-VocaGame.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1265,6 +1435,7 @@
 		};
 		E9D3424E25BC2060006A7EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35298E50DDD1DD8A86446BB3 /* Pods-VocaGame.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
