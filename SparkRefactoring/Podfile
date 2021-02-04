@@ -5,6 +5,7 @@ use_frameworks!
 def basicFrameworks
 pod 'SnapKit', '~> 5.0.0'
 pod 'Kingfisher', '~> 6.0'
+pod 'SDWebImage', '~> 5.0'
 end
 
 target 'SparkRefactoring' do

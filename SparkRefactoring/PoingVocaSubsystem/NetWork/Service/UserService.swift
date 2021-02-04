@@ -5,8 +5,9 @@
 //  Created by Hanteo on 2021/01/29.
 //
 
-import Foundation
+import AVFoundation
 import Moya
+import Alamofire
 
 enum UserService {
     case getUserInfo
@@ -23,7 +24,7 @@ extension UserService: TargetType {
     
     var path: String {
         switch self {
-        case .getUSerInfo, .editUser, .deleteUser:
+        case .getUserInfo, .editUser, .deleteUser:
             return "/v1/users"
         case .login:
             return "/v1/users/login"
@@ -62,7 +63,7 @@ extension UserService: TargetType {
         case .deleteUser:
             return .requestPlain
         case .editUser(let name, let photo):
-            var formData = [MultipartFormData]()
+            var formData = [Moya.MultipartFormData]()
             if let photo = photo {
                 formData.append(MultipartFormData(provider: .data(photo), name: "photo", fileName: "\(name).jpg", mimeType: "image/jpg"))
             }

@@ -45,6 +45,14 @@
 		E963C6AB25BAC5920065EBCB /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C6AA25BAC5920065EBCB /* UIFont+.swift */; };
 		E963C6AF25BAC76D0065EBCB /* AppleLoginHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C6AE25BAC76D0065EBCB /* AppleLoginHelper.swift */; };
 		E974F23F25C29531009DA167 /* VocaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E974F23E25C29531009DA167 /* VocaManager.swift */; };
+		E9940B4925CBB84200F2C142 /* GameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9940B4825CBB84200F2C142 /* GameType.swift */; };
+		E9940B5125CBC1D100F2C142 /* ModeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9940B5025CBC1D100F2C142 /* ModeConfig.swift */; };
+		E9940B5825CBC22700F2C142 /* Notification.Name+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9940B5725CBC22700F2C142 /* Notification.Name+.swift */; };
+		E9940B7125CBC34B00F2C142 /* GameGuideUtill.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9940B7025CBC34B00F2C142 /* GameGuideUtill.swift */; };
+		E9940B7825CBC36B00F2C142 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9940B7725CBC36B00F2C142 /* GuideView.swift */; };
+		E9940B7F25CBC59600F2C142 /* SelectFolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9940B7E25CBC59600F2C142 /* SelectFolderViewController.swift */; };
+		E9940B8625CBCB2400F2C142 /* SideNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9940B8525CBCB2400F2C142 /* SideNavigationView.swift */; };
+		E9940B8D25CBD0B200F2C142 /* SelectFolderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9940B8C25CBD0B200F2C142 /* SelectFolderCell.swift */; };
 		E9AB4F1425C95E01008DAB0C /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB4F1325C95E01008DAB0C /* HomeHeaderView.swift */; };
 		E9AB4F1D25C96E30008DAB0C /* MyVocaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB4F1C25C96E30008DAB0C /* MyVocaViewController.swift */; };
 		E9AB4F2425C9707D008DAB0C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB4F2325C9707D008DAB0C /* GameViewController.swift */; };
@@ -184,6 +192,14 @@
 		E963C6AE25BAC76D0065EBCB /* AppleLoginHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLoginHelper.swift; sourceTree = "<group>"; };
 		E963C6B825BADCA50065EBCB /* SparkRefactoring.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SparkRefactoring.entitlements; sourceTree = "<group>"; };
 		E974F23E25C29531009DA167 /* VocaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocaManager.swift; sourceTree = "<group>"; };
+		E9940B4825CBB84200F2C142 /* GameType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameType.swift; sourceTree = "<group>"; };
+		E9940B5025CBC1D100F2C142 /* ModeConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeConfig.swift; sourceTree = "<group>"; };
+		E9940B5725CBC22700F2C142 /* Notification.Name+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification.Name+.swift"; sourceTree = "<group>"; };
+		E9940B7025CBC34B00F2C142 /* GameGuideUtill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameGuideUtill.swift; sourceTree = "<group>"; };
+		E9940B7725CBC36B00F2C142 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		E9940B7E25CBC59600F2C142 /* SelectFolderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFolderViewController.swift; sourceTree = "<group>"; };
+		E9940B8525CBCB2400F2C142 /* SideNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideNavigationView.swift; sourceTree = "<group>"; };
+		E9940B8C25CBD0B200F2C142 /* SelectFolderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFolderCell.swift; sourceTree = "<group>"; };
 		E9AB4F1325C95E01008DAB0C /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		E9AB4F1C25C96E30008DAB0C /* MyVocaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVocaViewController.swift; sourceTree = "<group>"; };
 		E9AB4F2325C9707D008DAB0C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -361,6 +377,7 @@
 		E963C62D25BAA60F0065EBCB /* SparkRefactoring */ = {
 			isa = PBXGroup;
 			children = (
+				E9940B4F25CBC19600F2C142 /* Utils */,
 				E92EEEFF25BAF7B40053F32D /* Setting */,
 				E92EEEFE25BAF7A10053F32D /* Game */,
 				E92EEEFD25BAF78F0053F32D /* MyVoca */,
@@ -437,6 +454,7 @@
 		E963C69E25BAC14F0065EBCB /* NavigationView */ = {
 			isa = PBXGroup;
 			children = (
+				E9940B8525CBCB2400F2C142 /* SideNavigationView.swift */,
 			);
 			path = NavigationView;
 			sourceTree = "<group>";
@@ -452,6 +470,24 @@
 				E963C6AA25BAC5920065EBCB /* UIFont+.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		E9940B4F25CBC19600F2C142 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E9940B5025CBC1D100F2C142 /* ModeConfig.swift */,
+				E9940B5725CBC22700F2C142 /* Notification.Name+.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E9940B6A25CBC33C00F2C142 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				E9940B7025CBC34B00F2C142 /* GameGuideUtill.swift */,
+				E9940B7725CBC36B00F2C142 /* GuideView.swift */,
+			);
+			path = Guide;
 			sourceTree = "<group>";
 		};
 		E9D3421B25BC200B006A7EF6 /* PoingVocaSubsystem */ = {
@@ -506,8 +542,12 @@
 		E9D3424425BC2060006A7EF6 /* VocaGame */ = {
 			isa = PBXGroup;
 			children = (
+				E9940B6A25CBC33C00F2C142 /* Guide */,
 				E9D3424525BC2060006A7EF6 /* VocaGame.h */,
 				E9D3424625BC2060006A7EF6 /* Info.plist */,
+				E9940B4825CBB84200F2C142 /* GameType.swift */,
+				E9940B8C25CBD0B200F2C142 /* SelectFolderCell.swift */,
+				E9940B7E25CBC59600F2C142 /* SelectFolderViewController.swift */,
 			);
 			path = VocaGame;
 			sourceTree = "<group>";
@@ -717,6 +757,7 @@
 					};
 					E9D3424225BC2060006A7EF6 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 				};
 			};
@@ -923,6 +964,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9940B5825CBC22700F2C142 /* Notification.Name+.swift in Sources */,
 				E92EEEF825BAE6F60053F32D /* LoginViewController.swift in Sources */,
 				E963C6AF25BAC76D0065EBCB /* AppleLoginHelper.swift in Sources */,
 				E963C63325BAA60F0065EBCB /* ViewController.swift in Sources */,
@@ -931,6 +973,7 @@
 				E9AB4F1D25C96E30008DAB0C /* MyVocaViewController.swift in Sources */,
 				E963C67025BAB5690065EBCB /* AppleLoginButton.swift in Sources */,
 				E963C62F25BAA60F0065EBCB /* AppDelegate.swift in Sources */,
+				E9940B5125CBC1D100F2C142 /* ModeConfig.swift in Sources */,
 				E963C63125BAA60F0065EBCB /* SceneDelegate.swift in Sources */,
 				E9AB4F2425C9707D008DAB0C /* GameViewController.swift in Sources */,
 				E963C66325BAAA960065EBCB /* SplashViewController.swift in Sources */,
@@ -943,6 +986,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E963C6A125BAC1BB0065EBCB /* UIColor+.swift in Sources */,
+				E9940B8625CBCB2400F2C142 /* SideNavigationView.swift in Sources */,
 				E9AB4F3225C974C9008DAB0C /* CALayer+.swift in Sources */,
 				E963C6AB25BAC5920065EBCB /* UIFont+.swift in Sources */,
 				E9D3421225BC1A4F006A7EF6 /* UserDefaults+.swift in Sources */,
@@ -992,6 +1036,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9940B7F25CBC59600F2C142 /* SelectFolderViewController.swift in Sources */,
+				E9940B7825CBC36B00F2C142 /* GuideView.swift in Sources */,
+				E9940B4925CBB84200F2C142 /* GameType.swift in Sources */,
+				E9940B7125CBC34B00F2C142 /* GameGuideUtill.swift in Sources */,
+				E9940B8D25CBD0B200F2C142 /* SelectFolderCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1409,6 +1458,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 54DBA29B48E81CA98F4C271E /* Pods-VocaGame.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1426,6 +1476,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Refactoring.Spark.VocaGame;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1437,6 +1488,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35298E50DDD1DD8A86446BB3 /* Pods-VocaGame.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

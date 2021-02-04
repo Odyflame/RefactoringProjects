@@ -47,11 +47,11 @@ class HomeViewController: UIViewController {
 
 extension HomeViewController: HomeHeaderDelegate {
     func homeHeader(_ view: HomeHeaderView, selectedTab: HomeTabType) {
-        <#code#>
+        
     }
     
     func homeHeader(_ view: HomeHeaderView, settingDidTap button: UIButton) {
-        <#code#>
+        
     }
 }
 
@@ -61,16 +61,16 @@ extension HomeViewController: UIPageViewControllerDelegate {
             return
         }
         
-        if viewController == myV
+        //if viewController == myV
     }
 }
 
 extension HomeViewController: UIPageViewControllerDataSource {
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
-        <#code#>
+        
     }
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
-        <#code#>
+        
     }
 }
