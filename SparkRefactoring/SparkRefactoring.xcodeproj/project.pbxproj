@@ -67,6 +67,13 @@
 		E9D3424725BC2060006A7EF6 /* VocaGame.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D3424525BC2060006A7EF6 /* VocaGame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9D3424A25BC2060006A7EF6 /* VocaGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D3424325BC2060006A7EF6 /* VocaGame.framework */; };
 		E9D3424B25BC2060006A7EF6 /* VocaGame.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9D3424325BC2060006A7EF6 /* VocaGame.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E9EEB4EC25D147F8001752AF /* ModeConfigStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEB4EB25D147F8001752AF /* ModeConfigStateViewController.swift */; };
+		E9EEB4F325D148D5001752AF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEB4F225D148D5001752AF /* SettingViewController.swift */; };
+		E9EEB4FA25D14910001752AF /* SettingSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEB4F925D14910001752AF /* SettingSection.swift */; };
+		E9EEB50125D14C6C001752AF /* MyVocaWordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEB50025D14C6C001752AF /* MyVocaWordCell.swift */; };
+		E9EEB50825D14C7D001752AF /* MyVocaEmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEB50725D14C7D001752AF /* MyVocaEmptyCell.swift */; };
+		E9EEB51025D14ECC001752AF /* PulseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEB50F25D14ECC001752AF /* PulseAnimation.swift */; };
+		E9EEB51725D1622A001752AF /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEB51625D1622A001752AF /* RadioButton.swift */; };
 		FE13639AD06A95DEEBDBB623 /* Pods_PoingVocaSubsystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0861BBC37A845D6C7EFB2B /* Pods_PoingVocaSubsystem.framework */; };
 /* End PBXBuildFile section */
 
@@ -215,6 +222,13 @@
 		E9D3424325BC2060006A7EF6 /* VocaGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VocaGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D3424525BC2060006A7EF6 /* VocaGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VocaGame.h; sourceTree = "<group>"; };
 		E9D3424625BC2060006A7EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9EEB4EB25D147F8001752AF /* ModeConfigStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeConfigStateViewController.swift; sourceTree = "<group>"; };
+		E9EEB4F225D148D5001752AF /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		E9EEB4F925D14910001752AF /* SettingSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSection.swift; sourceTree = "<group>"; };
+		E9EEB50025D14C6C001752AF /* MyVocaWordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVocaWordCell.swift; sourceTree = "<group>"; };
+		E9EEB50725D14C7D001752AF /* MyVocaEmptyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVocaEmptyCell.swift; sourceTree = "<group>"; };
+		E9EEB50F25D14ECC001752AF /* PulseAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseAnimation.swift; sourceTree = "<group>"; };
+		E9EEB51625D1622A001752AF /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,6 +304,8 @@
 			children = (
 				E92EEF0025BAF8BE0053F32D /* HomeViewController.swift */,
 				E9AB4F1C25C96E30008DAB0C /* MyVocaViewController.swift */,
+				E9EEB50025D14C6C001752AF /* MyVocaWordCell.swift */,
+				E9EEB50725D14C7D001752AF /* MyVocaEmptyCell.swift */,
 				E9AB4F1325C95E01008DAB0C /* HomeHeaderView.swift */,
 			);
 			path = MyVoca;
@@ -307,6 +323,8 @@
 		E92EEEFF25BAF7B40053F32D /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				E9EEB4F225D148D5001752AF /* SettingViewController.swift */,
+				E9EEB4F925D14910001752AF /* SettingSection.swift */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -424,11 +442,13 @@
 		E963C67E25BAC1120065EBCB /* PoingDesignSystem */ = {
 			isa = PBXGroup;
 			children = (
+				E9EEB50E25D14E9F001752AF /* Animation */,
 				E963C69F25BAC15B0065EBCB /* Utils */,
 				E963C69E25BAC14F0065EBCB /* NavigationView */,
 				E963C69D25BAC1400065EBCB /* Resources */,
 				E963C67F25BAC1120065EBCB /* PoingDesignSystem.h */,
 				E963C68025BAC1120065EBCB /* Info.plist */,
+				E9EEB51625D1622A001752AF /* RadioButton.swift */,
 			);
 			path = PoingDesignSystem;
 			sourceTree = "<group>";
@@ -476,6 +496,7 @@
 			isa = PBXGroup;
 			children = (
 				E9940B5025CBC1D100F2C142 /* ModeConfig.swift */,
+				E9EEB4EB25D147F8001752AF /* ModeConfigStateViewController.swift */,
 				E9940B5725CBC22700F2C142 /* Notification.Name+.swift */,
 			);
 			path = Utils;
@@ -550,6 +571,14 @@
 				E9940B7E25CBC59600F2C142 /* SelectFolderViewController.swift */,
 			);
 			path = VocaGame;
+			sourceTree = "<group>";
+		};
+		E9EEB50E25D14E9F001752AF /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				E9EEB50F25D14ECC001752AF /* PulseAnimation.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 		F03D6E6F00E753358ED05410 /* Frameworks */ = {
@@ -967,14 +996,19 @@
 				E9940B5825CBC22700F2C142 /* Notification.Name+.swift in Sources */,
 				E92EEEF825BAE6F60053F32D /* LoginViewController.swift in Sources */,
 				E963C6AF25BAC76D0065EBCB /* AppleLoginHelper.swift in Sources */,
+				E9EEB4F325D148D5001752AF /* SettingViewController.swift in Sources */,
+				E9EEB4EC25D147F8001752AF /* ModeConfigStateViewController.swift in Sources */,
 				E963C63325BAA60F0065EBCB /* ViewController.swift in Sources */,
 				E9AB4F1425C95E01008DAB0C /* HomeHeaderView.swift in Sources */,
 				E92EEF0125BAF8BE0053F32D /* HomeViewController.swift in Sources */,
 				E9AB4F1D25C96E30008DAB0C /* MyVocaViewController.swift in Sources */,
+				E9EEB4FA25D14910001752AF /* SettingSection.swift in Sources */,
 				E963C67025BAB5690065EBCB /* AppleLoginButton.swift in Sources */,
 				E963C62F25BAA60F0065EBCB /* AppDelegate.swift in Sources */,
+				E9EEB50825D14C7D001752AF /* MyVocaEmptyCell.swift in Sources */,
 				E9940B5125CBC1D100F2C142 /* ModeConfig.swift in Sources */,
 				E963C63125BAA60F0065EBCB /* SceneDelegate.swift in Sources */,
+				E9EEB50125D14C6C001752AF /* MyVocaWordCell.swift in Sources */,
 				E9AB4F2425C9707D008DAB0C /* GameViewController.swift in Sources */,
 				E963C66325BAAA960065EBCB /* SplashViewController.swift in Sources */,
 				E9AB4F2B25C97084008DAB0C /* GameCell.swift in Sources */,
@@ -985,6 +1019,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9EEB51725D1622A001752AF /* RadioButton.swift in Sources */,
+				E9EEB51025D14ECC001752AF /* PulseAnimation.swift in Sources */,
 				E963C6A125BAC1BB0065EBCB /* UIColor+.swift in Sources */,
 				E9940B8625CBCB2400F2C142 /* SideNavigationView.swift in Sources */,
 				E9AB4F3225C974C9008DAB0C /* CALayer+.swift in Sources */,

@@ -12,7 +12,7 @@ import Network
 import RxSwift
 import RxCocoa
 
-class MyVocaCiewController: UIViewController {
+class MyVocaViewController: UIViewController {
     enum Constant {
         enum Floating {
             static let height: CGFloat = 60
@@ -39,14 +39,14 @@ class MyVocaCiewController: UIViewController {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setImage(UIImage(named: "btnAdd"), for: .normal)
-//        button.layer.shadow(
-//            color: .brightSkyBlue50,
-//            alpha: 1,
-//            x: 0,
-//            y: 5,
-//            blur: 20,
-//            spread: 0
-//        )
+        button.layer.shadow(
+            color: .brightSkyBlue50,
+            alpha: 1,
+            x: 0,
+            y: 5,
+            blur: 20,
+            spread: 0
+        )
         button.layer.masksToBounds = false
         return button
     }()
@@ -55,20 +55,27 @@ class MyVocaCiewController: UIViewController {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setImage(UIImage(named: "btnGame"), for: .normal)
-//        button.layer.shadow(
-//            color: .greyblue50,
-//            alpha: 1,
-//            x: 0,
-//            y: 5,
-//            blur: 20,
-//            spread: 0
-//        )
+        button.layer.shadow(
+            color: .greyblue50,
+            alpha: 1,
+            x: 0,
+            y: 5,
+            blur: 20,
+            spread: 0
+        )
         button.layer.masksToBounds = false
         return button
     }()
     
     init(viewType: ViewType) {
         currentViewType = viewType
+        if ModeConfig.shared.currentMode == .offline {
+            //viewModel = MyVocaViewModel()
+        } else {
+            //viewModel = MyVocaOnlineViewModel()
+        }
+        
+        super.init(nibName: nil, bundle: nil)
     }
     
     required init?(coder: NSCoder) {
