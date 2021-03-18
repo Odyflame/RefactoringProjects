@@ -2,10 +2,10 @@
 //  GuideView.swift
 //  VocaGame
 //
-//  Created by Hanteo on 2021/02/04.
+//  Created by LEE HAEUN on 2020/10/25.
+//  Copyright © 2020 LEE HAEUN. All rights reserved.
 //
 
-import Foundation
 import UIKit
 import PoingDesignSystem
 
@@ -13,7 +13,7 @@ class GuideView: UIView {
     enum Constant {
         static let radius: CGFloat = 16
     }
-    
+
     lazy var titleAreaView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
@@ -38,7 +38,7 @@ class GuideView: UIView {
         view.contentMode = .scaleAspectFit
         return view
     }()
-    
+
     init(image: UIImage, title: String) {
         super.init(frame: .zero)
         titleLabel.text = title
@@ -55,7 +55,7 @@ class GuideView: UIView {
         titleLabel.text = title
         imageView.image = image
     }
-    
+
     func configureLayout() {
         isUserInteractionEnabled = false
         

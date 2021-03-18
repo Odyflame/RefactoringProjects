@@ -7,138 +7,106 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FAA0141F25801CD732EC6EA /* Pods_VocaGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B500A67AEC51CF1DB1AE50E /* Pods_VocaGame.framework */; };
-		4A95DB693A0599677F77123F /* Pods_SparkRefactoring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0A537223CCFE6BEE894551 /* Pods_SparkRefactoring.framework */; };
-		77676F15C6C355978767D453 /* Pods_PoingDesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1AFA8D2E014CE1BAF33430 /* Pods_PoingDesignSystem.framework */; };
-		E90DC49F25BC30EF003ADE71 /* VocaCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DC49E25BC30EF003ADE71 /* VocaCoreDataManager.swift */; };
-		E90DC4A625BC376D003ADE71 /* Notification.Name+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DC4A525BC376D003ADE71 /* Notification.Name+.swift */; };
-		E91A057C25BC255E003579A7 /* Voca.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E91A057A25BC255E003579A7 /* Voca.xcdatamodeld */; };
-		E91A059125BC271A003579A7 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A059025BC271A003579A7 /* Word.swift */; };
-		E91A059825BC2723003579A7 /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A059725BC2723003579A7 /* Folder.swift */; };
-		E91A05AF25BC2ACD003579A7 /* ManagedGroup+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A05AD25BC2ACC003579A7 /* ManagedGroup+CoreDataClass.swift */; };
-		E91A05B025BC2ACD003579A7 /* ManagedGroup+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A05AE25BC2ACD003579A7 /* ManagedGroup+CoreDataProperties.swift */; };
-		E91A05B825BC2AD4003579A7 /* ManagedWord+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A05B625BC2AD3003579A7 /* ManagedWord+CoreDataClass.swift */; };
-		E91A05B925BC2AD4003579A7 /* ManagedWord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A05B725BC2AD4003579A7 /* ManagedWord+CoreDataProperties.swift */; };
-		E92EEEF825BAE6F60053F32D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92EEEF725BAE6F60053F32D /* LoginViewController.swift */; };
-		E92EEF0125BAF8BE0053F32D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92EEF0025BAF8BE0053F32D /* HomeViewController.swift */; };
-		E92EEF0525BAFB180053F32D /* UITabGestureRecognizer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92EEF0425BAFB180053F32D /* UITabGestureRecognizer+.swift */; };
-		E9525EB725C415F1008A7603 /* ServerURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9525EB625C415F1008A7603 /* ServerURL.swift */; };
-		E9525EBE25C4160C008A7603 /* BaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9525EBD25C4160C008A7603 /* BaseManager.swift */; };
-		E9525EC525C41639008A7603 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9525EC425C41639008A7603 /* UserInfo.swift */; };
-		E9525ECC25C416F8008A7603 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9525ECB25C416F8008A7603 /* UserService.swift */; };
-		E963C62F25BAA60F0065EBCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C62E25BAA60F0065EBCB /* AppDelegate.swift */; };
-		E963C63125BAA60F0065EBCB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C63025BAA60F0065EBCB /* SceneDelegate.swift */; };
-		E963C63325BAA60F0065EBCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C63225BAA60F0065EBCB /* ViewController.swift */; };
-		E963C63825BAA60F0065EBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E963C63725BAA60F0065EBCB /* Assets.xcassets */; };
-		E963C63B25BAA60F0065EBCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E963C63925BAA60F0065EBCB /* LaunchScreen.storyboard */; };
-		E963C66325BAAA960065EBCB /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C66225BAAA960065EBCB /* SplashViewController.swift */; };
-		E963C66625BAAC0D0065EBCB /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = E963C66525BAAC0D0065EBCB /* .swiftlint.yml */; };
-		E963C66C25BAAE220065EBCB /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E963C66B25BAAE220065EBCB /* Splash.storyboard */; };
-		E963C67025BAB5690065EBCB /* AppleLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C66F25BAB5690065EBCB /* AppleLoginButton.swift */; };
-		E963C68625BAC1120065EBCB /* PoingDesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E963C67D25BAC1120065EBCB /* PoingDesignSystem.framework */; };
-		E963C68D25BAC1120065EBCB /* PoingDesignSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C68C25BAC1120065EBCB /* PoingDesignSystemTests.swift */; };
-		E963C68F25BAC1120065EBCB /* PoingDesignSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = E963C67F25BAC1120065EBCB /* PoingDesignSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E963C69225BAC1120065EBCB /* PoingDesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E963C67D25BAC1120065EBCB /* PoingDesignSystem.framework */; };
-		E963C69425BAC1120065EBCB /* PoingDesignSystem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E963C67D25BAC1120065EBCB /* PoingDesignSystem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E963C6A125BAC1BB0065EBCB /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C6A025BAC1BB0065EBCB /* UIColor+.swift */; };
-		E963C6A525BAC1DD0065EBCB /* VDSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C6A425BAC1DD0065EBCB /* VDSTextField.swift */; };
-		E963C6AB25BAC5920065EBCB /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C6AA25BAC5920065EBCB /* UIFont+.swift */; };
-		E963C6AF25BAC76D0065EBCB /* AppleLoginHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963C6AE25BAC76D0065EBCB /* AppleLoginHelper.swift */; };
-		E974F23F25C29531009DA167 /* VocaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E974F23E25C29531009DA167 /* VocaManager.swift */; };
-		E9940B4925CBB84200F2C142 /* GameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9940B4825CBB84200F2C142 /* GameType.swift */; };
-		E9940B5125CBC1D100F2C142 /* ModeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9940B5025CBC1D100F2C142 /* ModeConfig.swift */; };
-		E9940B5825CBC22700F2C142 /* Notification.Name+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9940B5725CBC22700F2C142 /* Notification.Name+.swift */; };
-		E9940B7125CBC34B00F2C142 /* GameGuideUtill.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9940B7025CBC34B00F2C142 /* GameGuideUtill.swift */; };
-		E9940B7825CBC36B00F2C142 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9940B7725CBC36B00F2C142 /* GuideView.swift */; };
-		E9940B7F25CBC59600F2C142 /* SelectFolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9940B7E25CBC59600F2C142 /* SelectFolderViewController.swift */; };
-		E9940B8625CBCB2400F2C142 /* SideNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9940B8525CBCB2400F2C142 /* SideNavigationView.swift */; };
-		E9940B8D25CBD0B200F2C142 /* SelectFolderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9940B8C25CBD0B200F2C142 /* SelectFolderCell.swift */; };
-		E9AB4F1425C95E01008DAB0C /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB4F1325C95E01008DAB0C /* HomeHeaderView.swift */; };
-		E9AB4F1D25C96E30008DAB0C /* MyVocaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB4F1C25C96E30008DAB0C /* MyVocaViewController.swift */; };
-		E9AB4F2425C9707D008DAB0C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB4F2325C9707D008DAB0C /* GameViewController.swift */; };
-		E9AB4F2B25C97084008DAB0C /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB4F2A25C97084008DAB0C /* GameCell.swift */; };
-		E9AB4F3225C974C9008DAB0C /* CALayer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB4F3125C974C9008DAB0C /* CALayer+.swift */; };
-		E9D3421225BC1A4F006A7EF6 /* UserDefaults+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3421125BC1A4F006A7EF6 /* UserDefaults+.swift */; };
-		E9D3422325BC200B006A7EF6 /* PoingVocaSubsystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D3421A25BC200B006A7EF6 /* PoingVocaSubsystem.framework */; };
-		E9D3422A25BC200B006A7EF6 /* PoingVocaSubsystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3422925BC200B006A7EF6 /* PoingVocaSubsystemTests.swift */; };
-		E9D3422C25BC200B006A7EF6 /* PoingVocaSubsystem.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D3421C25BC200B006A7EF6 /* PoingVocaSubsystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9D3422F25BC200B006A7EF6 /* PoingVocaSubsystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D3421A25BC200B006A7EF6 /* PoingVocaSubsystem.framework */; };
-		E9D3423025BC200B006A7EF6 /* PoingVocaSubsystem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9D3421A25BC200B006A7EF6 /* PoingVocaSubsystem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E9D3424725BC2060006A7EF6 /* VocaGame.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D3424525BC2060006A7EF6 /* VocaGame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9D3424A25BC2060006A7EF6 /* VocaGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D3424325BC2060006A7EF6 /* VocaGame.framework */; };
-		E9D3424B25BC2060006A7EF6 /* VocaGame.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9D3424325BC2060006A7EF6 /* VocaGame.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E9EEB4EC25D147F8001752AF /* ModeConfigStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEB4EB25D147F8001752AF /* ModeConfigStateViewController.swift */; };
-		E9EEB4F325D148D5001752AF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEB4F225D148D5001752AF /* SettingViewController.swift */; };
-		E9EEB4FA25D14910001752AF /* SettingSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEB4F925D14910001752AF /* SettingSection.swift */; };
-		E9EEB50125D14C6C001752AF /* MyVocaWordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEB50025D14C6C001752AF /* MyVocaWordCell.swift */; };
-		E9EEB50825D14C7D001752AF /* MyVocaEmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEB50725D14C7D001752AF /* MyVocaEmptyCell.swift */; };
-		E9EEB51025D14ECC001752AF /* PulseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEB50F25D14ECC001752AF /* PulseAnimation.swift */; };
-		E9EEB51725D1622A001752AF /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEB51625D1622A001752AF /* RadioButton.swift */; };
-		FE13639AD06A95DEEBDBB623 /* Pods_PoingVocaSubsystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0861BBC37A845D6C7EFB2B /* Pods_PoingVocaSubsystem.framework */; };
+		1D4CB9AB600F020FBC23B739 /* Pods_VocaSubsystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A95BE2D7C635755BAC6461 /* Pods_VocaSubsystem.framework */; };
+		AFBD37269500115E05D3F3BD /* Pods_VocaDesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A615DAF3CFC3B207FD02A0 /* Pods_VocaDesignSystem.framework */; };
+		DAD599028AFA2A8ED5D95FDC /* Pods_VocaGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC151EA7945A0C8152373CB /* Pods_VocaGame.framework */; };
+		E946E5102602EEB900F640F7 /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E5042602EEB800F640F7 /* UIFont+.swift */; };
+		E946E5112602EEB900F640F7 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E5052602EEB800F640F7 /* UIColor+.swift */; };
+		E946E5122602EEB900F640F7 /* PoingDesignSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = E946E5062602EEB900F640F7 /* PoingDesignSystem.h */; };
+		E946E5132602EEB900F640F7 /* AccentLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E5072602EEB900F640F7 /* AccentLineTextField.swift */; };
+		E946E5142602EEB900F640F7 /* AddWordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E5082602EEB900F640F7 /* AddWordTextField.swift */; };
+		E946E5152602EEB900F640F7 /* VDSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E5092602EEB900F640F7 /* VDSTextField.swift */; };
+		E946E5162602EEB900F640F7 /* AccentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E50A2602EEB900F640F7 /* AccentButton.swift */; };
+		E946E5172602EEB900F640F7 /* NavigationView in Resources */ = {isa = PBXBuildFile; fileRef = E946E50B2602EEB900F640F7 /* NavigationView */; };
+		E946E5182602EEB900F640F7 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E50C2602EEB900F640F7 /* PopupViewController.swift */; };
+		E946E5192602EEB900F640F7 /* CALayer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E50D2602EEB900F640F7 /* CALayer+.swift */; };
+		E946E51A2602EEB900F640F7 /* PulseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E50E2602EEB900F640F7 /* PulseAnimation.swift */; };
+		E946E51B2602EEB900F640F7 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E50F2602EEB900F640F7 /* RadioButton.swift */; };
+		E946E5262602EEC600F640F7 /* SelectFolderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E51F2602EEC600F640F7 /* SelectFolderButton.swift */; };
+		E946E5272602EEC600F640F7 /* SuccessPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E5202602EEC600F640F7 /* SuccessPopupView.swift */; };
+		E946E5282602EEC600F640F7 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E946E5222602EEC600F640F7 /* Quicksand-Bold.ttf */; };
+		E946E5292602EEC600F640F7 /* BalsamiqSansBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E946E5232602EEC600F640F7 /* BalsamiqSansBold.ttf */; };
+		E946E52A2602EEC600F640F7 /* NoticePopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E5242602EEC600F640F7 /* NoticePopupViewController.swift */; };
+		E946E52B2602EEC600F640F7 /* DeleteUserPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E5252602EEC600F640F7 /* DeleteUserPopupViewController.swift */; };
+		E946E5302602F73F00F640F7 /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E52F2602F73F00F640F7 /* GameCell.swift */; };
+		E946E5352602F85D00F640F7 /* GameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E5342602F85D00F640F7 /* GameType.swift */; };
+		E946E53A2602F9FE00F640F7 /* ScoreAnimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E5392602F9FE00F640F7 /* ScoreAnimateView.swift */; };
+		E946E55E2602FC3500F640F7 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E946E55D2602FC3500F640F7 /* Media.xcassets */; };
+		E946E5632602FE4900F640F7 /* SelectFolderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E5622602FE4900F640F7 /* SelectFolderCell.swift */; };
+		E946E56B2602FEE400F640F7 /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E56A2602FEE400F640F7 /* Folder.swift */; };
+		E946E5702602FEEC00F640F7 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E56F2602FEEC00F640F7 /* Word.swift */; };
+		E946E5762603130500F640F7 /* Voca.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E946E5742603130500F640F7 /* Voca.xcdatamodeld */; };
+		E946E58C2603163E00F640F7 /* ManagedGroup+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E5882603163E00F640F7 /* ManagedGroup+CoreDataClass.swift */; };
+		E946E58D2603163E00F640F7 /* ManagedGroup+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E5892603163E00F640F7 /* ManagedGroup+CoreDataProperties.swift */; };
+		E946E58E2603163E00F640F7 /* ManagedWord+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E58A2603163E00F640F7 /* ManagedWord+CoreDataClass.swift */; };
+		E946E58F2603163E00F640F7 /* ManagedWord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E58B2603163E00F640F7 /* ManagedWord+CoreDataProperties.swift */; };
+		E946E5942603246C00F640F7 /* ProgressBarNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E5932603246C00F640F7 /* ProgressBarNavigationView.swift */; };
+		E946E59C2603250C00F640F7 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946E59B2603250C00F640F7 /* ConfettiView.swift */; };
+		E9F032A72601A78B00E9D0D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F032A62601A78B00E9D0D5 /* AppDelegate.swift */; };
+		E9F032AB2601A78B00E9D0D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F032AA2601A78B00E9D0D5 /* ViewController.swift */; };
+		E9F032B02601A78C00E9D0D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F032AF2601A78C00E9D0D5 /* Assets.xcassets */; };
+		E9F032B32601A78C00E9D0D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F032B12601A78C00E9D0D5 /* LaunchScreen.storyboard */; };
+		E9F032E22601A9B300E9D0D5 /* VocaGame.h in Headers */ = {isa = PBXBuildFile; fileRef = E9F032E02601A9B300E9D0D5 /* VocaGame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9F032E52601A9B300E9D0D5 /* VocaGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F032DE2601A9B300E9D0D5 /* VocaGame.framework */; };
+		E9F032E62601A9B300E9D0D5 /* VocaGame.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9F032DE2601A9B300E9D0D5 /* VocaGame.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E9F032F52601A9CC00E9D0D5 /* VocaDesignSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = E9F032F32601A9CC00E9D0D5 /* VocaDesignSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9F032F82601A9CC00E9D0D5 /* VocaDesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F032F12601A9CC00E9D0D5 /* VocaDesignSystem.framework */; };
+		E9F032F92601A9CC00E9D0D5 /* VocaDesignSystem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9F032F12601A9CC00E9D0D5 /* VocaDesignSystem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E9F033082601A9F000E9D0D5 /* VocaSubsystem.h in Headers */ = {isa = PBXBuildFile; fileRef = E9F033062601A9F000E9D0D5 /* VocaSubsystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9F0330B2601A9F000E9D0D5 /* VocaSubsystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F033042601A9F000E9D0D5 /* VocaSubsystem.framework */; };
+		E9F0330C2601A9F000E9D0D5 /* VocaSubsystem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9F033042601A9F000E9D0D5 /* VocaSubsystem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E9F033182601ABAA00E9D0D5 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F033172601ABAA00E9D0D5 /* SplashViewController.swift */; };
+		E9F033282601ABE500E9D0D5 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F033272601ABE500E9D0D5 /* Splash.storyboard */; };
+		E9F0332D2601ACA800E9D0D5 /* Guide in Resources */ = {isa = PBXBuildFile; fileRef = E9F0332C2601ACA800E9D0D5 /* Guide */; };
+		E9F033322601AE2600E9D0D5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F033312601AE2600E9D0D5 /* HomeViewController.swift */; };
+		E9F033402601AE8200E9D0D5 /* UserDefaults+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F033372601AE8200E9D0D5 /* UserDefaults+.swift */; };
+		E9F033412601AE8200E9D0D5 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F033382601AE8200E9D0D5 /* String+.swift */; };
+		E9F033422601AE8200E9D0D5 /* ModeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F033392601AE8200E9D0D5 /* ModeConfig.swift */; };
+		E9F033432601AE8200E9D0D5 /* ModeConfigStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F0333A2601AE8200E9D0D5 /* ModeConfigStateView.swift */; };
+		E9F033442601AE8200E9D0D5 /* UIAlerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F0333B2601AE8200E9D0D5 /* UIAlerController.swift */; };
+		E9F033452601AE8200E9D0D5 /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F0333C2601AE8200E9D0D5 /* UILabel+.swift */; };
+		E9F033462601AE8200E9D0D5 /* Notification.Name+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F0333D2601AE8200E9D0D5 /* Notification.Name+.swift */; };
+		E9F033472601AE8200E9D0D5 /* UITapGestureRecognizer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F0333E2601AE8200E9D0D5 /* UITapGestureRecognizer+.swift */; };
+		E9F033482601AE8200E9D0D5 /* UIWindow+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F0333F2601AE8200E9D0D5 /* UIWindow+.swift */; };
+		E9F0334D2601AF2400E9D0D5 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F0334C2601AF2400E9D0D5 /* HomeHeaderView.swift */; };
+		E9F033522601AF6800E9D0D5 /* MyVocaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F033512601AF6800E9D0D5 /* MyVocaViewController.swift */; };
+		F3EFC7D77D9E6648D3FAEB7F /* Pods_SparkRefactoring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAFDA053038083F2D2FE278 /* Pods_SparkRefactoring.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E963C68725BAC1120065EBCB /* PBXContainerItemProxy */ = {
+		E9F032E32601A9B300E9D0D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E963C62325BAA60E0065EBCB /* Project object */;
+			containerPortal = E9F0329B2601A78B00E9D0D5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E963C67C25BAC1120065EBCB;
-			remoteInfo = PoingDesignSystem;
-		};
-		E963C68925BAC1120065EBCB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E963C62325BAA60E0065EBCB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E963C62A25BAA60E0065EBCB;
-			remoteInfo = SparkRefactoring;
-		};
-		E963C69025BAC1120065EBCB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E963C62325BAA60E0065EBCB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E963C67C25BAC1120065EBCB;
-			remoteInfo = PoingDesignSystem;
-		};
-		E9D3422425BC200B006A7EF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E963C62325BAA60E0065EBCB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E9D3421925BC200B006A7EF6;
-			remoteInfo = PoingVocaSubsystem;
-		};
-		E9D3422625BC200B006A7EF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E963C62325BAA60E0065EBCB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E963C62A25BAA60E0065EBCB;
-			remoteInfo = SparkRefactoring;
-		};
-		E9D3422D25BC200B006A7EF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E963C62325BAA60E0065EBCB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E9D3421925BC200B006A7EF6;
-			remoteInfo = PoingVocaSubsystem;
-		};
-		E9D3424825BC2060006A7EF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E963C62325BAA60E0065EBCB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E9D3424225BC2060006A7EF6;
+			remoteGlobalIDString = E9F032DD2601A9B300E9D0D5;
 			remoteInfo = VocaGame;
+		};
+		E9F032F62601A9CC00E9D0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9F0329B2601A78B00E9D0D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F032F02601A9CC00E9D0D5;
+			remoteInfo = VocaDesignSystem;
+		};
+		E9F033092601A9F000E9D0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9F0329B2601A78B00E9D0D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F033032601A9F000E9D0D5;
+			remoteInfo = VocaSubsystem;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E963C69325BAC1120065EBCB /* Embed Frameworks */ = {
+		E9F032EA2601A9B400E9D0D5 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E9D3424B25BC2060006A7EF6 /* VocaGame.framework in Embed Frameworks */,
-				E963C69425BAC1120065EBCB /* PoingDesignSystem.framework in Embed Frameworks */,
-				E9D3423025BC200B006A7EF6 /* PoingVocaSubsystem.framework in Embed Frameworks */,
+				E9F032F92601A9CC00E9D0D5 /* VocaDesignSystem.framework in Embed Frameworks */,
+				E9F0330C2601A9F000E9D0D5 /* VocaSubsystem.framework in Embed Frameworks */,
+				E9F032E62601A9B300E9D0D5 /* VocaGame.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,606 +114,416 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0B0861BBC37A845D6C7EFB2B /* Pods_PoingVocaSubsystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoingVocaSubsystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B500A67AEC51CF1DB1AE50E /* Pods_VocaGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VocaGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EFC8A7EDC0BD4EEE22A4993 /* Pods-PoingVocaSubsystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoingVocaSubsystem.debug.xcconfig"; path = "Target Support Files/Pods-PoingVocaSubsystem/Pods-PoingVocaSubsystem.debug.xcconfig"; sourceTree = "<group>"; };
-		311E47746EC38AFC7CF6291D /* Pods-PoingVocaSubsystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoingVocaSubsystem.release.xcconfig"; path = "Target Support Files/Pods-PoingVocaSubsystem/Pods-PoingVocaSubsystem.release.xcconfig"; sourceTree = "<group>"; };
-		35298E50DDD1DD8A86446BB3 /* Pods-VocaGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocaGame.release.xcconfig"; path = "Target Support Files/Pods-VocaGame/Pods-VocaGame.release.xcconfig"; sourceTree = "<group>"; };
-		3F1AFA8D2E014CE1BAF33430 /* Pods_PoingDesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoingDesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54DBA29B48E81CA98F4C271E /* Pods-VocaGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocaGame.debug.xcconfig"; path = "Target Support Files/Pods-VocaGame/Pods-VocaGame.debug.xcconfig"; sourceTree = "<group>"; };
-		648CC25CC9663D0F6847D1E1 /* Pods-PoingDesignSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoingDesignSystem.release.xcconfig"; path = "Target Support Files/Pods-PoingDesignSystem/Pods-PoingDesignSystem.release.xcconfig"; sourceTree = "<group>"; };
-		6E0A537223CCFE6BEE894551 /* Pods_SparkRefactoring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkRefactoring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F54737D082FA84A58B99D90 /* Pods-SparkRefactoring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkRefactoring.release.xcconfig"; path = "Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring.release.xcconfig"; sourceTree = "<group>"; };
-		ABC9D5B569B7A546CAEFE098 /* Pods-PoingDesignSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoingDesignSystem.debug.xcconfig"; path = "Target Support Files/Pods-PoingDesignSystem/Pods-PoingDesignSystem.debug.xcconfig"; sourceTree = "<group>"; };
-		B1044E96CAEF05A0FA388350 /* Pods-SparkRefactoring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkRefactoring.debug.xcconfig"; path = "Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring.debug.xcconfig"; sourceTree = "<group>"; };
-		E90DC49E25BC30EF003ADE71 /* VocaCoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocaCoreDataManager.swift; sourceTree = "<group>"; };
-		E90DC4A525BC376D003ADE71 /* Notification.Name+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification.Name+.swift"; sourceTree = "<group>"; };
-		E91A057B25BC255E003579A7 /* Voca.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Voca.xcdatamodel; sourceTree = "<group>"; };
-		E91A059025BC271A003579A7 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
-		E91A059725BC2723003579A7 /* Folder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
-		E91A05AD25BC2ACC003579A7 /* ManagedGroup+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ManagedGroup+CoreDataClass.swift"; sourceTree = "<group>"; };
-		E91A05AE25BC2ACD003579A7 /* ManagedGroup+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ManagedGroup+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		E91A05B625BC2AD3003579A7 /* ManagedWord+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ManagedWord+CoreDataClass.swift"; sourceTree = "<group>"; };
-		E91A05B725BC2AD4003579A7 /* ManagedWord+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ManagedWord+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		E92EEEF725BAE6F60053F32D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		E92EEF0025BAF8BE0053F32D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		E92EEF0425BAFB180053F32D /* UITabGestureRecognizer+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabGestureRecognizer+.swift"; sourceTree = "<group>"; };
-		E9525EB625C415F1008A7603 /* ServerURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerURL.swift; sourceTree = "<group>"; };
-		E9525EBD25C4160C008A7603 /* BaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseManager.swift; sourceTree = "<group>"; };
-		E9525EC425C41639008A7603 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
-		E9525ECB25C416F8008A7603 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
-		E963C62B25BAA60F0065EBCB /* SparkRefactoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkRefactoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E963C62E25BAA60F0065EBCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E963C63025BAA60F0065EBCB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E963C63225BAA60F0065EBCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E963C63725BAA60F0065EBCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E963C63A25BAA60F0065EBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E963C63C25BAA60F0065EBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E963C66225BAAA960065EBCB /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
-		E963C66525BAAC0D0065EBCB /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
-		E963C66B25BAAE220065EBCB /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
-		E963C66F25BAB5690065EBCB /* AppleLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLoginButton.swift; sourceTree = "<group>"; };
-		E963C67D25BAC1120065EBCB /* PoingDesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PoingDesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E963C67F25BAC1120065EBCB /* PoingDesignSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PoingDesignSystem.h; sourceTree = "<group>"; };
-		E963C68025BAC1120065EBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E963C68525BAC1120065EBCB /* PoingDesignSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoingDesignSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E963C68C25BAC1120065EBCB /* PoingDesignSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoingDesignSystemTests.swift; sourceTree = "<group>"; };
-		E963C68E25BAC1120065EBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E963C6A025BAC1BB0065EBCB /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
-		E963C6A425BAC1DD0065EBCB /* VDSTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDSTextField.swift; sourceTree = "<group>"; };
-		E963C6A825BAC5800065EBCB /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
-		E963C6A925BAC5800065EBCB /* BalsamiqSansBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BalsamiqSansBold.ttf; sourceTree = "<group>"; };
-		E963C6AA25BAC5920065EBCB /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
-		E963C6AE25BAC76D0065EBCB /* AppleLoginHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLoginHelper.swift; sourceTree = "<group>"; };
-		E963C6B825BADCA50065EBCB /* SparkRefactoring.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SparkRefactoring.entitlements; sourceTree = "<group>"; };
-		E974F23E25C29531009DA167 /* VocaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocaManager.swift; sourceTree = "<group>"; };
-		E9940B4825CBB84200F2C142 /* GameType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameType.swift; sourceTree = "<group>"; };
-		E9940B5025CBC1D100F2C142 /* ModeConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeConfig.swift; sourceTree = "<group>"; };
-		E9940B5725CBC22700F2C142 /* Notification.Name+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification.Name+.swift"; sourceTree = "<group>"; };
-		E9940B7025CBC34B00F2C142 /* GameGuideUtill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameGuideUtill.swift; sourceTree = "<group>"; };
-		E9940B7725CBC36B00F2C142 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
-		E9940B7E25CBC59600F2C142 /* SelectFolderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFolderViewController.swift; sourceTree = "<group>"; };
-		E9940B8525CBCB2400F2C142 /* SideNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideNavigationView.swift; sourceTree = "<group>"; };
-		E9940B8C25CBD0B200F2C142 /* SelectFolderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFolderCell.swift; sourceTree = "<group>"; };
-		E9AB4F1325C95E01008DAB0C /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
-		E9AB4F1C25C96E30008DAB0C /* MyVocaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVocaViewController.swift; sourceTree = "<group>"; };
-		E9AB4F2325C9707D008DAB0C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		E9AB4F2A25C97084008DAB0C /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
-		E9AB4F3125C974C9008DAB0C /* CALayer+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+.swift"; sourceTree = "<group>"; };
-		E9D3421125BC1A4F006A7EF6 /* UserDefaults+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+.swift"; sourceTree = "<group>"; };
-		E9D3421A25BC200B006A7EF6 /* PoingVocaSubsystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PoingVocaSubsystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9D3421C25BC200B006A7EF6 /* PoingVocaSubsystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PoingVocaSubsystem.h; sourceTree = "<group>"; };
-		E9D3421D25BC200B006A7EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9D3422225BC200B006A7EF6 /* PoingVocaSubsystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoingVocaSubsystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9D3422925BC200B006A7EF6 /* PoingVocaSubsystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoingVocaSubsystemTests.swift; sourceTree = "<group>"; };
-		E9D3422B25BC200B006A7EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9D3424325BC2060006A7EF6 /* VocaGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VocaGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9D3424525BC2060006A7EF6 /* VocaGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VocaGame.h; sourceTree = "<group>"; };
-		E9D3424625BC2060006A7EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9EEB4EB25D147F8001752AF /* ModeConfigStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeConfigStateViewController.swift; sourceTree = "<group>"; };
-		E9EEB4F225D148D5001752AF /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
-		E9EEB4F925D14910001752AF /* SettingSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSection.swift; sourceTree = "<group>"; };
-		E9EEB50025D14C6C001752AF /* MyVocaWordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVocaWordCell.swift; sourceTree = "<group>"; };
-		E9EEB50725D14C7D001752AF /* MyVocaEmptyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVocaEmptyCell.swift; sourceTree = "<group>"; };
-		E9EEB50F25D14ECC001752AF /* PulseAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseAnimation.swift; sourceTree = "<group>"; };
-		E9EEB51625D1622A001752AF /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		1CD313B9679BD7560FFCB736 /* Pods-VocaDesignSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocaDesignSystem.release.xcconfig"; path = "Target Support Files/Pods-VocaDesignSystem/Pods-VocaDesignSystem.release.xcconfig"; sourceTree = "<group>"; };
+		4414EAC56693C6CECEDEC45F /* Pods-SparkRefactoring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkRefactoring.debug.xcconfig"; path = "Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring.debug.xcconfig"; sourceTree = "<group>"; };
+		486A5E09A07EEC5AC4543FEF /* Pods-VocaSubsystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocaSubsystem.debug.xcconfig"; path = "Target Support Files/Pods-VocaSubsystem/Pods-VocaSubsystem.debug.xcconfig"; sourceTree = "<group>"; };
+		5EC151EA7945A0C8152373CB /* Pods_VocaGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VocaGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A615DAF3CFC3B207FD02A0 /* Pods_VocaDesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VocaDesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAFDA053038083F2D2FE278 /* Pods_SparkRefactoring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkRefactoring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8411DBFF39DF43AC580AAE65 /* Pods-VocaGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocaGame.release.xcconfig"; path = "Target Support Files/Pods-VocaGame/Pods-VocaGame.release.xcconfig"; sourceTree = "<group>"; };
+		A24DE79FDCE5D9D6ABE8E214 /* Pods-VocaDesignSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocaDesignSystem.debug.xcconfig"; path = "Target Support Files/Pods-VocaDesignSystem/Pods-VocaDesignSystem.debug.xcconfig"; sourceTree = "<group>"; };
+		B5A95BE2D7C635755BAC6461 /* Pods_VocaSubsystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VocaSubsystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63A0ABBA29A468D09CB08B2 /* Pods-SparkRefactoring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkRefactoring.release.xcconfig"; path = "Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring.release.xcconfig"; sourceTree = "<group>"; };
+		E946E5042602EEB800F640F7 /* UIFont+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		E946E5052602EEB800F640F7 /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		E946E5062602EEB900F640F7 /* PoingDesignSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoingDesignSystem.h; sourceTree = "<group>"; };
+		E946E5072602EEB900F640F7 /* AccentLineTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccentLineTextField.swift; sourceTree = "<group>"; };
+		E946E5082602EEB900F640F7 /* AddWordTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWordTextField.swift; sourceTree = "<group>"; };
+		E946E5092602EEB900F640F7 /* VDSTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VDSTextField.swift; sourceTree = "<group>"; };
+		E946E50A2602EEB900F640F7 /* AccentButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccentButton.swift; sourceTree = "<group>"; };
+		E946E50B2602EEB900F640F7 /* NavigationView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = NavigationView; sourceTree = "<group>"; };
+		E946E50C2602EEB900F640F7 /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		E946E50D2602EEB900F640F7 /* CALayer+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+.swift"; sourceTree = "<group>"; };
+		E946E50E2602EEB900F640F7 /* PulseAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseAnimation.swift; sourceTree = "<group>"; };
+		E946E50F2602EEB900F640F7 /* RadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		E946E51F2602EEC600F640F7 /* SelectFolderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectFolderButton.swift; sourceTree = "<group>"; };
+		E946E5202602EEC600F640F7 /* SuccessPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessPopupView.swift; sourceTree = "<group>"; };
+		E946E5222602EEC600F640F7 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		E946E5232602EEC600F640F7 /* BalsamiqSansBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BalsamiqSansBold.ttf; sourceTree = "<group>"; };
+		E946E5242602EEC600F640F7 /* NoticePopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticePopupViewController.swift; sourceTree = "<group>"; };
+		E946E5252602EEC600F640F7 /* DeleteUserPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteUserPopupViewController.swift; sourceTree = "<group>"; };
+		E946E52F2602F73F00F640F7 /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+		E946E5342602F85D00F640F7 /* GameType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameType.swift; sourceTree = "<group>"; };
+		E946E5392602F9FE00F640F7 /* ScoreAnimateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreAnimateView.swift; sourceTree = "<group>"; };
+		E946E55D2602FC3500F640F7 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		E946E5622602FE4900F640F7 /* SelectFolderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFolderCell.swift; sourceTree = "<group>"; };
+		E946E56A2602FEE400F640F7 /* Folder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
+		E946E56F2602FEEC00F640F7 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		E946E5752603130500F640F7 /* Voca.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Voca.xcdatamodel; sourceTree = "<group>"; };
+		E946E5882603163E00F640F7 /* ManagedGroup+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ManagedGroup+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E946E5892603163E00F640F7 /* ManagedGroup+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ManagedGroup+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E946E58A2603163E00F640F7 /* ManagedWord+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ManagedWord+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E946E58B2603163E00F640F7 /* ManagedWord+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ManagedWord+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E946E5932603246C00F640F7 /* ProgressBarNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarNavigationView.swift; sourceTree = "<group>"; };
+		E946E59B2603250C00F640F7 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		E9F032A32601A78B00E9D0D5 /* SparkRefactoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkRefactoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F032A62601A78B00E9D0D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9F032AA2601A78B00E9D0D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9F032AF2601A78C00E9D0D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9F032B22601A78C00E9D0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9F032B42601A78C00E9D0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F032DE2601A9B300E9D0D5 /* VocaGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VocaGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F032E02601A9B300E9D0D5 /* VocaGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VocaGame.h; sourceTree = "<group>"; };
+		E9F032E12601A9B300E9D0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F032F12601A9CC00E9D0D5 /* VocaDesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VocaDesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F032F32601A9CC00E9D0D5 /* VocaDesignSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VocaDesignSystem.h; sourceTree = "<group>"; };
+		E9F032F42601A9CC00E9D0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F033042601A9F000E9D0D5 /* VocaSubsystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VocaSubsystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F033062601A9F000E9D0D5 /* VocaSubsystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VocaSubsystem.h; sourceTree = "<group>"; };
+		E9F033072601A9F000E9D0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F033172601ABAA00E9D0D5 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		E9F033272601ABE500E9D0D5 /* Splash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		E9F0332C2601ACA800E9D0D5 /* Guide */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Guide; sourceTree = "<group>"; };
+		E9F033312601AE2600E9D0D5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E9F033372601AE8200E9D0D5 /* UserDefaults+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+.swift"; sourceTree = "<group>"; };
+		E9F033382601AE8200E9D0D5 /* String+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		E9F033392601AE8200E9D0D5 /* ModeConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeConfig.swift; sourceTree = "<group>"; };
+		E9F0333A2601AE8200E9D0D5 /* ModeConfigStateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeConfigStateView.swift; sourceTree = "<group>"; };
+		E9F0333B2601AE8200E9D0D5 /* UIAlerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlerController.swift; sourceTree = "<group>"; };
+		E9F0333C2601AE8200E9D0D5 /* UILabel+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
+		E9F0333D2601AE8200E9D0D5 /* Notification.Name+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notification.Name+.swift"; sourceTree = "<group>"; };
+		E9F0333E2601AE8200E9D0D5 /* UITapGestureRecognizer+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITapGestureRecognizer+.swift"; sourceTree = "<group>"; };
+		E9F0333F2601AE8200E9D0D5 /* UIWindow+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+.swift"; sourceTree = "<group>"; };
+		E9F0334C2601AF2400E9D0D5 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		E9F033512601AF6800E9D0D5 /* MyVocaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVocaViewController.swift; sourceTree = "<group>"; };
+		F46D7FCF59B0B35F83F358A5 /* Pods-VocaGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocaGame.debug.xcconfig"; path = "Target Support Files/Pods-VocaGame/Pods-VocaGame.debug.xcconfig"; sourceTree = "<group>"; };
+		FBB96D28878A15F48DFA15F1 /* Pods-VocaSubsystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocaSubsystem.release.xcconfig"; path = "Target Support Files/Pods-VocaSubsystem/Pods-VocaSubsystem.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E963C62825BAA60E0065EBCB /* Frameworks */ = {
+		E9F032A02601A78B00E9D0D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A95DB693A0599677F77123F /* Pods_SparkRefactoring.framework in Frameworks */,
-				E9D3424A25BC2060006A7EF6 /* VocaGame.framework in Frameworks */,
-				E9D3422F25BC200B006A7EF6 /* PoingVocaSubsystem.framework in Frameworks */,
-				E963C69225BAC1120065EBCB /* PoingDesignSystem.framework in Frameworks */,
+				E9F032F82601A9CC00E9D0D5 /* VocaDesignSystem.framework in Frameworks */,
+				E9F032E52601A9B300E9D0D5 /* VocaGame.framework in Frameworks */,
+				E9F0330B2601A9F000E9D0D5 /* VocaSubsystem.framework in Frameworks */,
+				F3EFC7D77D9E6648D3FAEB7F /* Pods_SparkRefactoring.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E963C67A25BAC1120065EBCB /* Frameworks */ = {
+		E9F032DB2601A9B300E9D0D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77676F15C6C355978767D453 /* Pods_PoingDesignSystem.framework in Frameworks */,
+				DAD599028AFA2A8ED5D95FDC /* Pods_VocaGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E963C68225BAC1120065EBCB /* Frameworks */ = {
+		E9F032EE2601A9CC00E9D0D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E963C68625BAC1120065EBCB /* PoingDesignSystem.framework in Frameworks */,
+				AFBD37269500115E05D3F3BD /* Pods_VocaDesignSystem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9D3421725BC200B006A7EF6 /* Frameworks */ = {
+		E9F033012601A9F000E9D0D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE13639AD06A95DEEBDBB623 /* Pods_PoingVocaSubsystem.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9D3421F25BC200B006A7EF6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9D3422325BC200B006A7EF6 /* PoingVocaSubsystem.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9D3424025BC2060006A7EF6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3FAA0141F25801CD732EC6EA /* Pods_VocaGame.framework in Frameworks */,
+				1D4CB9AB600F020FBC23B739 /* Pods_VocaSubsystem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E91A058225BC26A2003579A7 /* CoreData */ = {
+		20F1CADBD9F885A5D27E3471 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E91A05B625BC2AD3003579A7 /* ManagedWord+CoreDataClass.swift */,
-				E91A05B725BC2AD4003579A7 /* ManagedWord+CoreDataProperties.swift */,
-				E91A05AD25BC2ACC003579A7 /* ManagedGroup+CoreDataClass.swift */,
-				E91A05AE25BC2ACD003579A7 /* ManagedGroup+CoreDataProperties.swift */,
-				E90DC49E25BC30EF003ADE71 /* VocaCoreDataManager.swift */,
-				E974F23E25C29531009DA167 /* VocaManager.swift */,
+				4414EAC56693C6CECEDEC45F /* Pods-SparkRefactoring.debug.xcconfig */,
+				C63A0ABBA29A468D09CB08B2 /* Pods-SparkRefactoring.release.xcconfig */,
+				A24DE79FDCE5D9D6ABE8E214 /* Pods-VocaDesignSystem.debug.xcconfig */,
+				1CD313B9679BD7560FFCB736 /* Pods-VocaDesignSystem.release.xcconfig */,
+				F46D7FCF59B0B35F83F358A5 /* Pods-VocaGame.debug.xcconfig */,
+				8411DBFF39DF43AC580AAE65 /* Pods-VocaGame.release.xcconfig */,
+				486A5E09A07EEC5AC4543FEF /* Pods-VocaSubsystem.debug.xcconfig */,
+				FBB96D28878A15F48DFA15F1 /* Pods-VocaSubsystem.release.xcconfig */,
 			);
-			path = CoreData;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		E92EEEFD25BAF78F0053F32D /* MyVoca */ = {
+		E946E5212602EEC600F640F7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E92EEF0025BAF8BE0053F32D /* HomeViewController.swift */,
-				E9AB4F1C25C96E30008DAB0C /* MyVocaViewController.swift */,
-				E9EEB50025D14C6C001752AF /* MyVocaWordCell.swift */,
-				E9EEB50725D14C7D001752AF /* MyVocaEmptyCell.swift */,
-				E9AB4F1325C95E01008DAB0C /* HomeHeaderView.swift */,
-			);
-			path = MyVoca;
-			sourceTree = "<group>";
-		};
-		E92EEEFE25BAF7A10053F32D /* Game */ = {
-			isa = PBXGroup;
-			children = (
-				E9AB4F2325C9707D008DAB0C /* GameViewController.swift */,
-				E9AB4F2A25C97084008DAB0C /* GameCell.swift */,
-			);
-			path = Game;
-			sourceTree = "<group>";
-		};
-		E92EEEFF25BAF7B40053F32D /* Setting */ = {
-			isa = PBXGroup;
-			children = (
-				E9EEB4F225D148D5001752AF /* SettingViewController.swift */,
-				E9EEB4F925D14910001752AF /* SettingSection.swift */,
-			);
-			path = Setting;
-			sourceTree = "<group>";
-		};
-		E9525EB225C415CA008A7603 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				E91A059725BC2723003579A7 /* Folder.swift */,
-				E91A059025BC271A003579A7 /* Word.swift */,
-				E9525EC425C41639008A7603 /* UserInfo.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		E9525EB325C415D2008A7603 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				E9525ECB25C416F8008A7603 /* UserService.swift */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		E9525EB425C415D7008A7603 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		E9525EB525C415E2008A7603 /* Basic */ = {
-			isa = PBXGroup;
-			children = (
-				E9525EB625C415F1008A7603 /* ServerURL.swift */,
-				E9525EBD25C4160C008A7603 /* BaseManager.swift */,
-			);
-			path = Basic;
-			sourceTree = "<group>";
-		};
-		E963C62225BAA60E0065EBCB = {
-			isa = PBXGroup;
-			children = (
-				E963C66525BAAC0D0065EBCB /* .swiftlint.yml */,
-				E963C62D25BAA60F0065EBCB /* SparkRefactoring */,
-				E963C67E25BAC1120065EBCB /* PoingDesignSystem */,
-				E963C68B25BAC1120065EBCB /* PoingDesignSystemTests */,
-				E9D3421B25BC200B006A7EF6 /* PoingVocaSubsystem */,
-				E9D3422825BC200B006A7EF6 /* PoingVocaSubsystemTests */,
-				E9D3424425BC2060006A7EF6 /* VocaGame */,
-				E963C62C25BAA60F0065EBCB /* Products */,
-				F34FFC71D7E12152A778AA68 /* Pods */,
-				F03D6E6F00E753358ED05410 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		E963C62C25BAA60F0065EBCB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E963C62B25BAA60F0065EBCB /* SparkRefactoring.app */,
-				E963C67D25BAC1120065EBCB /* PoingDesignSystem.framework */,
-				E963C68525BAC1120065EBCB /* PoingDesignSystemTests.xctest */,
-				E9D3421A25BC200B006A7EF6 /* PoingVocaSubsystem.framework */,
-				E9D3422225BC200B006A7EF6 /* PoingVocaSubsystemTests.xctest */,
-				E9D3424325BC2060006A7EF6 /* VocaGame.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E963C62D25BAA60F0065EBCB /* SparkRefactoring */ = {
-			isa = PBXGroup;
-			children = (
-				E9940B4F25CBC19600F2C142 /* Utils */,
-				E92EEEFF25BAF7B40053F32D /* Setting */,
-				E92EEEFE25BAF7A10053F32D /* Game */,
-				E92EEEFD25BAF78F0053F32D /* MyVoca */,
-				E963C6B825BADCA50065EBCB /* SparkRefactoring.entitlements */,
-				E963C67725BABF030065EBCB /* Resource */,
-				E963C66E25BAB3CF0065EBCB /* Login */,
-				E963C66125BAAA780065EBCB /* Splash */,
-				E963C62E25BAA60F0065EBCB /* AppDelegate.swift */,
-				E963C63025BAA60F0065EBCB /* SceneDelegate.swift */,
-				E963C63225BAA60F0065EBCB /* ViewController.swift */,
-				E963C63925BAA60F0065EBCB /* LaunchScreen.storyboard */,
-				E963C63C25BAA60F0065EBCB /* Info.plist */,
-			);
-			path = SparkRefactoring;
-			sourceTree = "<group>";
-		};
-		E963C66125BAAA780065EBCB /* Splash */ = {
-			isa = PBXGroup;
-			children = (
-				E963C66225BAAA960065EBCB /* SplashViewController.swift */,
-				E963C66B25BAAE220065EBCB /* Splash.storyboard */,
-			);
-			path = Splash;
-			sourceTree = "<group>";
-		};
-		E963C66E25BAB3CF0065EBCB /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				E963C66F25BAB5690065EBCB /* AppleLoginButton.swift */,
-				E92EEEF725BAE6F60053F32D /* LoginViewController.swift */,
-				E963C6AE25BAC76D0065EBCB /* AppleLoginHelper.swift */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		E963C67725BABF030065EBCB /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				E963C63725BAA60F0065EBCB /* Assets.xcassets */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		E963C67E25BAC1120065EBCB /* PoingDesignSystem */ = {
-			isa = PBXGroup;
-			children = (
-				E9EEB50E25D14E9F001752AF /* Animation */,
-				E963C69F25BAC15B0065EBCB /* Utils */,
-				E963C69E25BAC14F0065EBCB /* NavigationView */,
-				E963C69D25BAC1400065EBCB /* Resources */,
-				E963C67F25BAC1120065EBCB /* PoingDesignSystem.h */,
-				E963C68025BAC1120065EBCB /* Info.plist */,
-				E9EEB51625D1622A001752AF /* RadioButton.swift */,
-			);
-			path = PoingDesignSystem;
-			sourceTree = "<group>";
-		};
-		E963C68B25BAC1120065EBCB /* PoingDesignSystemTests */ = {
-			isa = PBXGroup;
-			children = (
-				E963C68C25BAC1120065EBCB /* PoingDesignSystemTests.swift */,
-				E963C68E25BAC1120065EBCB /* Info.plist */,
-			);
-			path = PoingDesignSystemTests;
-			sourceTree = "<group>";
-		};
-		E963C69D25BAC1400065EBCB /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E963C6A925BAC5800065EBCB /* BalsamiqSansBold.ttf */,
-				E963C6A825BAC5800065EBCB /* Quicksand-Bold.ttf */,
+				E946E5222602EEC600F640F7 /* Quicksand-Bold.ttf */,
+				E946E5232602EEC600F640F7 /* BalsamiqSansBold.ttf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		E963C69E25BAC14F0065EBCB /* NavigationView */ = {
+		E946E5672602FEBE00F640F7 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				E9940B8525CBCB2400F2C142 /* SideNavigationView.swift */,
+				E946E5692602FED400F640F7 /* Model */,
+				E946E5682602FEC700F640F7 /* Utills */,
 			);
-			path = NavigationView;
+			path = Network;
 			sourceTree = "<group>";
 		};
-		E963C69F25BAC15B0065EBCB /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				E963C6A025BAC1BB0065EBCB /* UIColor+.swift */,
-				E9AB4F3125C974C9008DAB0C /* CALayer+.swift */,
-				E92EEF0425BAFB180053F32D /* UITabGestureRecognizer+.swift */,
-				E9D3421125BC1A4F006A7EF6 /* UserDefaults+.swift */,
-				E963C6A425BAC1DD0065EBCB /* VDSTextField.swift */,
-				E963C6AA25BAC5920065EBCB /* UIFont+.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		E9940B4F25CBC19600F2C142 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				E9940B5025CBC1D100F2C142 /* ModeConfig.swift */,
-				E9EEB4EB25D147F8001752AF /* ModeConfigStateViewController.swift */,
-				E9940B5725CBC22700F2C142 /* Notification.Name+.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		E9940B6A25CBC33C00F2C142 /* Guide */ = {
-			isa = PBXGroup;
-			children = (
-				E9940B7025CBC34B00F2C142 /* GameGuideUtill.swift */,
-				E9940B7725CBC36B00F2C142 /* GuideView.swift */,
-			);
-			path = Guide;
-			sourceTree = "<group>";
-		};
-		E9D3421B25BC200B006A7EF6 /* PoingVocaSubsystem */ = {
-			isa = PBXGroup;
-			children = (
-				E91A058225BC26A2003579A7 /* CoreData */,
-				E9D3423D25BC2033006A7EF6 /* VocaDownload */,
-				E9D3423C25BC2029006A7EF6 /* Utils */,
-				E9D3423B25BC2020006A7EF6 /* NetWork */,
-				E9D3421C25BC200B006A7EF6 /* PoingVocaSubsystem.h */,
-				E9D3421D25BC200B006A7EF6 /* Info.plist */,
-				E91A057A25BC255E003579A7 /* Voca.xcdatamodeld */,
-			);
-			path = PoingVocaSubsystem;
-			sourceTree = "<group>";
-		};
-		E9D3422825BC200B006A7EF6 /* PoingVocaSubsystemTests */ = {
-			isa = PBXGroup;
-			children = (
-				E9D3422925BC200B006A7EF6 /* PoingVocaSubsystemTests.swift */,
-				E9D3422B25BC200B006A7EF6 /* Info.plist */,
-			);
-			path = PoingVocaSubsystemTests;
-			sourceTree = "<group>";
-		};
-		E9D3423B25BC2020006A7EF6 /* NetWork */ = {
-			isa = PBXGroup;
-			children = (
-				E9525EB525C415E2008A7603 /* Basic */,
-				E9525EB425C415D7008A7603 /* Controller */,
-				E9525EB325C415D2008A7603 /* Service */,
-				E9525EB225C415CA008A7603 /* Model */,
-			);
-			path = NetWork;
-			sourceTree = "<group>";
-		};
-		E9D3423C25BC2029006A7EF6 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				E90DC4A525BC376D003ADE71 /* Notification.Name+.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		E9D3423D25BC2033006A7EF6 /* VocaDownload */ = {
+		E946E5682602FEC700F640F7 /* Utills */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = VocaDownload;
+			path = Utills;
 			sourceTree = "<group>";
 		};
-		E9D3424425BC2060006A7EF6 /* VocaGame */ = {
+		E946E5692602FED400F640F7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E9940B6A25CBC33C00F2C142 /* Guide */,
-				E9D3424525BC2060006A7EF6 /* VocaGame.h */,
-				E9D3424625BC2060006A7EF6 /* Info.plist */,
-				E9940B4825CBB84200F2C142 /* GameType.swift */,
-				E9940B8C25CBD0B200F2C142 /* SelectFolderCell.swift */,
-				E9940B7E25CBC59600F2C142 /* SelectFolderViewController.swift */,
+				E946E56A2602FEE400F640F7 /* Folder.swift */,
+				E946E56F2602FEEC00F640F7 /* Word.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E946E598260324E400F640F7 /* ConfettiAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				E946E59B2603250C00F640F7 /* ConfettiView.swift */,
+			);
+			path = ConfettiAnimation;
+			sourceTree = "<group>";
+		};
+		E946E599260324F200F640F7 /* Flip */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Flip;
+			sourceTree = "<group>";
+		};
+		E946E59A260324FB00F640F7 /* Matching */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Matching;
+			sourceTree = "<group>";
+		};
+		E9F0329A2601A78B00E9D0D5 = {
+			isa = PBXGroup;
+			children = (
+				E9F032A52601A78B00E9D0D5 /* SparkRefactoring */,
+				E9F032DF2601A9B300E9D0D5 /* VocaGame */,
+				E9F032F22601A9CC00E9D0D5 /* VocaDesignSystem */,
+				E9F033052601A9F000E9D0D5 /* VocaSubsystem */,
+				E9F032A42601A78B00E9D0D5 /* Products */,
+				20F1CADBD9F885A5D27E3471 /* Pods */,
+				EA8DAF4FBA3245B0B9737F04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9F032A42601A78B00E9D0D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F032A32601A78B00E9D0D5 /* SparkRefactoring.app */,
+				E9F032DE2601A9B300E9D0D5 /* VocaGame.framework */,
+				E9F032F12601A9CC00E9D0D5 /* VocaDesignSystem.framework */,
+				E9F033042601A9F000E9D0D5 /* VocaSubsystem.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9F032A52601A78B00E9D0D5 /* SparkRefactoring */ = {
+			isa = PBXGroup;
+			children = (
+				E9F033362601AE5400E9D0D5 /* Utils */,
+				E9F033162601AA5B00E9D0D5 /* Splash */,
+				E9F032D82601A99300E9D0D5 /* MyVoca */,
+				E9F032D72601A98800E9D0D5 /* Game */,
+				E9F032D62601A98200E9D0D5 /* Resource */,
+				E9F032A62601A78B00E9D0D5 /* AppDelegate.swift */,
+				E9F032AA2601A78B00E9D0D5 /* ViewController.swift */,
+				E9F032B12601A78C00E9D0D5 /* LaunchScreen.storyboard */,
+				E9F032B42601A78C00E9D0D5 /* Info.plist */,
+			);
+			path = SparkRefactoring;
+			sourceTree = "<group>";
+		};
+		E9F032D62601A98200E9D0D5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E9F032AF2601A78C00E9D0D5 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E9F032D72601A98800E9D0D5 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				E946E52F2602F73F00F640F7 /* GameCell.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		E9F032D82601A99300E9D0D5 /* MyVoca */ = {
+			isa = PBXGroup;
+			children = (
+				E9F033312601AE2600E9D0D5 /* HomeViewController.swift */,
+				E9F033512601AF6800E9D0D5 /* MyVocaViewController.swift */,
+				E9F0334C2601AF2400E9D0D5 /* HomeHeaderView.swift */,
+			);
+			path = MyVoca;
+			sourceTree = "<group>";
+		};
+		E9F032DF2601A9B300E9D0D5 /* VocaGame */ = {
+			isa = PBXGroup;
+			children = (
+				E946E59A260324FB00F640F7 /* Matching */,
+				E946E599260324F200F640F7 /* Flip */,
+				E946E598260324E400F640F7 /* ConfettiAnimation */,
+				E9F0332C2601ACA800E9D0D5 /* Guide */,
+				E9F032E02601A9B300E9D0D5 /* VocaGame.h */,
+				E9F032E12601A9B300E9D0D5 /* Info.plist */,
+				E946E55D2602FC3500F640F7 /* Media.xcassets */,
+				E946E5342602F85D00F640F7 /* GameType.swift */,
+				E946E5392602F9FE00F640F7 /* ScoreAnimateView.swift */,
+				E946E5622602FE4900F640F7 /* SelectFolderCell.swift */,
+				E946E5932603246C00F640F7 /* ProgressBarNavigationView.swift */,
 			);
 			path = VocaGame;
 			sourceTree = "<group>";
 		};
-		E9EEB50E25D14E9F001752AF /* Animation */ = {
+		E9F032F22601A9CC00E9D0D5 /* VocaDesignSystem */ = {
 			isa = PBXGroup;
 			children = (
-				E9EEB50F25D14ECC001752AF /* PulseAnimation.swift */,
+				E946E5252602EEC600F640F7 /* DeleteUserPopupViewController.swift */,
+				E946E5242602EEC600F640F7 /* NoticePopupViewController.swift */,
+				E946E5212602EEC600F640F7 /* Resources */,
+				E946E51F2602EEC600F640F7 /* SelectFolderButton.swift */,
+				E946E5202602EEC600F640F7 /* SuccessPopupView.swift */,
+				E946E50A2602EEB900F640F7 /* AccentButton.swift */,
+				E946E5072602EEB900F640F7 /* AccentLineTextField.swift */,
+				E946E5082602EEB900F640F7 /* AddWordTextField.swift */,
+				E946E50D2602EEB900F640F7 /* CALayer+.swift */,
+				E946E50B2602EEB900F640F7 /* NavigationView */,
+				E946E5062602EEB900F640F7 /* PoingDesignSystem.h */,
+				E946E50C2602EEB900F640F7 /* PopupViewController.swift */,
+				E946E50E2602EEB900F640F7 /* PulseAnimation.swift */,
+				E946E50F2602EEB900F640F7 /* RadioButton.swift */,
+				E946E5052602EEB800F640F7 /* UIColor+.swift */,
+				E946E5042602EEB800F640F7 /* UIFont+.swift */,
+				E946E5092602EEB900F640F7 /* VDSTextField.swift */,
+				E9F032F32601A9CC00E9D0D5 /* VocaDesignSystem.h */,
+				E9F032F42601A9CC00E9D0D5 /* Info.plist */,
 			);
-			path = Animation;
+			path = VocaDesignSystem;
 			sourceTree = "<group>";
 		};
-		F03D6E6F00E753358ED05410 /* Frameworks */ = {
+		E9F033052601A9F000E9D0D5 /* VocaSubsystem */ = {
 			isa = PBXGroup;
 			children = (
-				6E0A537223CCFE6BEE894551 /* Pods_SparkRefactoring.framework */,
-				3F1AFA8D2E014CE1BAF33430 /* Pods_PoingDesignSystem.framework */,
-				0B0861BBC37A845D6C7EFB2B /* Pods_PoingVocaSubsystem.framework */,
-				0B500A67AEC51CF1DB1AE50E /* Pods_VocaGame.framework */,
+				E946E5882603163E00F640F7 /* ManagedGroup+CoreDataClass.swift */,
+				E946E5892603163E00F640F7 /* ManagedGroup+CoreDataProperties.swift */,
+				E946E58A2603163E00F640F7 /* ManagedWord+CoreDataClass.swift */,
+				E946E58B2603163E00F640F7 /* ManagedWord+CoreDataProperties.swift */,
+				E946E5742603130500F640F7 /* Voca.xcdatamodeld */,
+				E946E5672602FEBE00F640F7 /* Network */,
+				E9F033062601A9F000E9D0D5 /* VocaSubsystem.h */,
+				E9F033072601A9F000E9D0D5 /* Info.plist */,
+			);
+			path = VocaSubsystem;
+			sourceTree = "<group>";
+		};
+		E9F033162601AA5B00E9D0D5 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				E9F033272601ABE500E9D0D5 /* Splash.storyboard */,
+				E9F033172601ABAA00E9D0D5 /* SplashViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		E9F033362601AE5400E9D0D5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E9F033392601AE8200E9D0D5 /* ModeConfig.swift */,
+				E9F0333A2601AE8200E9D0D5 /* ModeConfigStateView.swift */,
+				E9F0333D2601AE8200E9D0D5 /* Notification.Name+.swift */,
+				E9F033382601AE8200E9D0D5 /* String+.swift */,
+				E9F0333B2601AE8200E9D0D5 /* UIAlerController.swift */,
+				E9F0333C2601AE8200E9D0D5 /* UILabel+.swift */,
+				E9F0333E2601AE8200E9D0D5 /* UITapGestureRecognizer+.swift */,
+				E9F0333F2601AE8200E9D0D5 /* UIWindow+.swift */,
+				E9F033372601AE8200E9D0D5 /* UserDefaults+.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EA8DAF4FBA3245B0B9737F04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FAFDA053038083F2D2FE278 /* Pods_SparkRefactoring.framework */,
+				77A615DAF3CFC3B207FD02A0 /* Pods_VocaDesignSystem.framework */,
+				5EC151EA7945A0C8152373CB /* Pods_VocaGame.framework */,
+				B5A95BE2D7C635755BAC6461 /* Pods_VocaSubsystem.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F34FFC71D7E12152A778AA68 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B1044E96CAEF05A0FA388350 /* Pods-SparkRefactoring.debug.xcconfig */,
-				7F54737D082FA84A58B99D90 /* Pods-SparkRefactoring.release.xcconfig */,
-				ABC9D5B569B7A546CAEFE098 /* Pods-PoingDesignSystem.debug.xcconfig */,
-				648CC25CC9663D0F6847D1E1 /* Pods-PoingDesignSystem.release.xcconfig */,
-				1EFC8A7EDC0BD4EEE22A4993 /* Pods-PoingVocaSubsystem.debug.xcconfig */,
-				311E47746EC38AFC7CF6291D /* Pods-PoingVocaSubsystem.release.xcconfig */,
-				54DBA29B48E81CA98F4C271E /* Pods-VocaGame.debug.xcconfig */,
-				35298E50DDD1DD8A86446BB3 /* Pods-VocaGame.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E963C67825BAC1120065EBCB /* Headers */ = {
+		E9F032D92601A9B300E9D0D5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E963C68F25BAC1120065EBCB /* PoingDesignSystem.h in Headers */,
+				E9F032E22601A9B300E9D0D5 /* VocaGame.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9D3421525BC200B006A7EF6 /* Headers */ = {
+		E9F032EC2601A9CC00E9D0D5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D3422C25BC200B006A7EF6 /* PoingVocaSubsystem.h in Headers */,
+				E9F032F52601A9CC00E9D0D5 /* VocaDesignSystem.h in Headers */,
+				E946E5122602EEB900F640F7 /* PoingDesignSystem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9D3423E25BC2060006A7EF6 /* Headers */ = {
+		E9F032FF2601A9F000E9D0D5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D3424725BC2060006A7EF6 /* VocaGame.h in Headers */,
+				E9F033082601A9F000E9D0D5 /* VocaSubsystem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E963C62A25BAA60E0065EBCB /* SparkRefactoring */ = {
+		E9F032A22601A78B00E9D0D5 /* SparkRefactoring */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E963C63F25BAA60F0065EBCB /* Build configuration list for PBXNativeTarget "SparkRefactoring" */;
+			buildConfigurationList = E9F032B72601A78C00E9D0D5 /* Build configuration list for PBXNativeTarget "SparkRefactoring" */;
 			buildPhases = (
-				13F518DBBFC2268A1FB8942C /* [CP] Check Pods Manifest.lock */,
-				E963C62725BAA60E0065EBCB /* Sources */,
-				E963C62825BAA60E0065EBCB /* Frameworks */,
-				E963C62925BAA60E0065EBCB /* Resources */,
-				AA4FC88EA3FBBFF302F195EB /* [CP] Embed Pods Frameworks */,
-				E963C66825BAAD3E0065EBCB /* Swiftlint Script */,
-				E963C69325BAC1120065EBCB /* Embed Frameworks */,
+				15D9BAA58F09B44C7D3ADA79 /* [CP] Check Pods Manifest.lock */,
+				E9F0329F2601A78B00E9D0D5 /* Sources */,
+				E9F032A02601A78B00E9D0D5 /* Frameworks */,
+				E9F032A12601A78B00E9D0D5 /* Resources */,
+				E9F032EA2601A9B400E9D0D5 /* Embed Frameworks */,
+				DE52474564AA2440082A0C7D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E963C69125BAC1120065EBCB /* PBXTargetDependency */,
-				E9D3422E25BC200B006A7EF6 /* PBXTargetDependency */,
-				E9D3424925BC2060006A7EF6 /* PBXTargetDependency */,
+				E9F032E42601A9B300E9D0D5 /* PBXTargetDependency */,
+				E9F032F72601A9CC00E9D0D5 /* PBXTargetDependency */,
+				E9F0330A2601A9F000E9D0D5 /* PBXTargetDependency */,
 			);
 			name = SparkRefactoring;
 			productName = SparkRefactoring;
-			productReference = E963C62B25BAA60F0065EBCB /* SparkRefactoring.app */;
+			productReference = E9F032A32601A78B00E9D0D5 /* SparkRefactoring.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E963C67C25BAC1120065EBCB /* PoingDesignSystem */ = {
+		E9F032DD2601A9B300E9D0D5 /* VocaGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E963C69525BAC1120065EBCB /* Build configuration list for PBXNativeTarget "PoingDesignSystem" */;
+			buildConfigurationList = E9F032E72601A9B400E9D0D5 /* Build configuration list for PBXNativeTarget "VocaGame" */;
 			buildPhases = (
-				A0212614C2447B066C8809AA /* [CP] Check Pods Manifest.lock */,
-				E963C67825BAC1120065EBCB /* Headers */,
-				E963C67925BAC1120065EBCB /* Sources */,
-				E963C67A25BAC1120065EBCB /* Frameworks */,
-				E963C67B25BAC1120065EBCB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PoingDesignSystem;
-			productName = PoingDesignSystem;
-			productReference = E963C67D25BAC1120065EBCB /* PoingDesignSystem.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E963C68425BAC1120065EBCB /* PoingDesignSystemTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E963C69825BAC1120065EBCB /* Build configuration list for PBXNativeTarget "PoingDesignSystemTests" */;
-			buildPhases = (
-				E963C68125BAC1120065EBCB /* Sources */,
-				E963C68225BAC1120065EBCB /* Frameworks */,
-				E963C68325BAC1120065EBCB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E963C68825BAC1120065EBCB /* PBXTargetDependency */,
-				E963C68A25BAC1120065EBCB /* PBXTargetDependency */,
-			);
-			name = PoingDesignSystemTests;
-			productName = PoingDesignSystemTests;
-			productReference = E963C68525BAC1120065EBCB /* PoingDesignSystemTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E9D3421925BC200B006A7EF6 /* PoingVocaSubsystem */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E9D3423125BC200B006A7EF6 /* Build configuration list for PBXNativeTarget "PoingVocaSubsystem" */;
-			buildPhases = (
-				5D62CC3864C3331E7E5A3E3A /* [CP] Check Pods Manifest.lock */,
-				E9D3421525BC200B006A7EF6 /* Headers */,
-				E9D3421625BC200B006A7EF6 /* Sources */,
-				E9D3421725BC200B006A7EF6 /* Frameworks */,
-				E9D3421825BC200B006A7EF6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PoingVocaSubsystem;
-			productName = PoingVocaSubsystem;
-			productReference = E9D3421A25BC200B006A7EF6 /* PoingVocaSubsystem.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E9D3422125BC200B006A7EF6 /* PoingVocaSubsystemTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E9D3423425BC200B006A7EF6 /* Build configuration list for PBXNativeTarget "PoingVocaSubsystemTests" */;
-			buildPhases = (
-				E9D3421E25BC200B006A7EF6 /* Sources */,
-				E9D3421F25BC200B006A7EF6 /* Frameworks */,
-				E9D3422025BC200B006A7EF6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E9D3422525BC200B006A7EF6 /* PBXTargetDependency */,
-				E9D3422725BC200B006A7EF6 /* PBXTargetDependency */,
-			);
-			name = PoingVocaSubsystemTests;
-			productName = PoingVocaSubsystemTests;
-			productReference = E9D3422225BC200B006A7EF6 /* PoingVocaSubsystemTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E9D3424225BC2060006A7EF6 /* VocaGame */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E9D3424C25BC2060006A7EF6 /* Build configuration list for PBXNativeTarget "VocaGame" */;
-			buildPhases = (
-				AC4EB2E7C75464BE8C21EA53 /* [CP] Check Pods Manifest.lock */,
-				E9D3423E25BC2060006A7EF6 /* Headers */,
-				E9D3423F25BC2060006A7EF6 /* Sources */,
-				E9D3424025BC2060006A7EF6 /* Frameworks */,
-				E9D3424125BC2060006A7EF6 /* Resources */,
+				6D137E21EFE8467811CC66AC /* [CP] Check Pods Manifest.lock */,
+				E9F032D92601A9B300E9D0D5 /* Headers */,
+				E9F032DA2601A9B300E9D0D5 /* Sources */,
+				E9F032DB2601A9B300E9D0D5 /* Frameworks */,
+				E9F032DC2601A9B300E9D0D5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -753,44 +531,74 @@
 			);
 			name = VocaGame;
 			productName = VocaGame;
-			productReference = E9D3424325BC2060006A7EF6 /* VocaGame.framework */;
+			productReference = E9F032DE2601A9B300E9D0D5 /* VocaGame.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9F032F02601A9CC00E9D0D5 /* VocaDesignSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F032FA2601A9CC00E9D0D5 /* Build configuration list for PBXNativeTarget "VocaDesignSystem" */;
+			buildPhases = (
+				622E6E05C494C36FD5A1A665 /* [CP] Check Pods Manifest.lock */,
+				E9F032EC2601A9CC00E9D0D5 /* Headers */,
+				E9F032ED2601A9CC00E9D0D5 /* Sources */,
+				E9F032EE2601A9CC00E9D0D5 /* Frameworks */,
+				E9F032EF2601A9CC00E9D0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VocaDesignSystem;
+			productName = VocaDesignSystem;
+			productReference = E9F032F12601A9CC00E9D0D5 /* VocaDesignSystem.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9F033032601A9F000E9D0D5 /* VocaSubsystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F0330D2601A9F000E9D0D5 /* Build configuration list for PBXNativeTarget "VocaSubsystem" */;
+			buildPhases = (
+				58F299725EED9BA5473F1BE2 /* [CP] Check Pods Manifest.lock */,
+				E9F032FF2601A9F000E9D0D5 /* Headers */,
+				E9F033002601A9F000E9D0D5 /* Sources */,
+				E9F033012601A9F000E9D0D5 /* Frameworks */,
+				E9F033022601A9F000E9D0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VocaSubsystem;
+			productName = VocaSubsystem;
+			productReference = E9F033042601A9F000E9D0D5 /* VocaSubsystem.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E963C62325BAA60E0065EBCB /* Project object */ = {
+		E9F0329B2601A78B00E9D0D5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1230;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					E963C62A25BAA60E0065EBCB = {
-						CreatedOnToolsVersion = 12.3;
+					E9F032A22601A78B00E9D0D5 = {
+						CreatedOnToolsVersion = 12.4;
 					};
-					E963C67C25BAC1120065EBCB = {
-						CreatedOnToolsVersion = 12.3;
-						LastSwiftMigration = 1230;
+					E9F032DD2601A9B300E9D0D5 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
-					E963C68425BAC1120065EBCB = {
-						CreatedOnToolsVersion = 12.3;
-						TestTargetID = E963C62A25BAA60E0065EBCB;
+					E9F032F02601A9CC00E9D0D5 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
-					E9D3421925BC200B006A7EF6 = {
-						CreatedOnToolsVersion = 12.3;
-						LastSwiftMigration = 1230;
-					};
-					E9D3422125BC200B006A7EF6 = {
-						CreatedOnToolsVersion = 12.3;
-						TestTargetID = E963C62A25BAA60E0065EBCB;
-					};
-					E9D3424225BC2060006A7EF6 = {
-						CreatedOnToolsVersion = 12.3;
-						LastSwiftMigration = 1230;
+					E9F033032601A9F000E9D0D5 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
-			buildConfigurationList = E963C62625BAA60E0065EBCB /* Build configuration list for PBXProject "SparkRefactoring" */;
+			buildConfigurationList = E9F0329E2601A78B00E9D0D5 /* Build configuration list for PBXProject "SparkRefactoring" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -798,62 +606,50 @@
 				en,
 				Base,
 			);
-			mainGroup = E963C62225BAA60E0065EBCB;
-			productRefGroup = E963C62C25BAA60F0065EBCB /* Products */;
+			mainGroup = E9F0329A2601A78B00E9D0D5;
+			productRefGroup = E9F032A42601A78B00E9D0D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E963C62A25BAA60E0065EBCB /* SparkRefactoring */,
-				E963C67C25BAC1120065EBCB /* PoingDesignSystem */,
-				E963C68425BAC1120065EBCB /* PoingDesignSystemTests */,
-				E9D3421925BC200B006A7EF6 /* PoingVocaSubsystem */,
-				E9D3422125BC200B006A7EF6 /* PoingVocaSubsystemTests */,
-				E9D3424225BC2060006A7EF6 /* VocaGame */,
+				E9F032A22601A78B00E9D0D5 /* SparkRefactoring */,
+				E9F032DD2601A9B300E9D0D5 /* VocaGame */,
+				E9F032F02601A9CC00E9D0D5 /* VocaDesignSystem */,
+				E9F033032601A9F000E9D0D5 /* VocaSubsystem */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E963C62925BAA60E0065EBCB /* Resources */ = {
+		E9F032A12601A78B00E9D0D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E963C66625BAAC0D0065EBCB /* .swiftlint.yml in Resources */,
-				E963C63B25BAA60F0065EBCB /* LaunchScreen.storyboard in Resources */,
-				E963C63825BAA60F0065EBCB /* Assets.xcassets in Resources */,
-				E963C66C25BAAE220065EBCB /* Splash.storyboard in Resources */,
+				E9F032B32601A78C00E9D0D5 /* LaunchScreen.storyboard in Resources */,
+				E9F032B02601A78C00E9D0D5 /* Assets.xcassets in Resources */,
+				E9F033282601ABE500E9D0D5 /* Splash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E963C67B25BAC1120065EBCB /* Resources */ = {
+		E9F032DC2601A9B300E9D0D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E946E55E2602FC3500F640F7 /* Media.xcassets in Resources */,
+				E9F0332D2601ACA800E9D0D5 /* Guide in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E963C68325BAC1120065EBCB /* Resources */ = {
+		E9F032EF2601A9CC00E9D0D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E946E5172602EEB900F640F7 /* NavigationView in Resources */,
+				E946E5282602EEC600F640F7 /* Quicksand-Bold.ttf in Resources */,
+				E946E5292602EEC600F640F7 /* BalsamiqSansBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9D3421825BC200B006A7EF6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9D3422025BC200B006A7EF6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9D3424125BC2060006A7EF6 /* Resources */ = {
+		E9F033022601A9F000E9D0D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -863,7 +659,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		13F518DBBFC2268A1FB8942C /* [CP] Check Pods Manifest.lock */ = {
+		15D9BAA58F09B44C7D3ADA79 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -885,7 +681,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5D62CC3864C3331E7E5A3E3A /* [CP] Check Pods Manifest.lock */ = {
+		58F299725EED9BA5473F1BE2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -900,14 +696,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PoingVocaSubsystem-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-VocaSubsystem-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A0212614C2447B066C8809AA /* [CP] Check Pods Manifest.lock */ = {
+		622E6E05C494C36FD5A1A665 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -922,31 +718,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PoingDesignSystem-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-VocaDesignSystem-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AA4FC88EA3FBBFF302F195EB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AC4EB2E7C75464BE8C21EA53 /* [CP] Check Pods Manifest.lock */ = {
+		6D137E21EFE8467811CC66AC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -968,163 +747,121 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E963C66825BAAD3E0065EBCB /* Swiftlint Script */ = {
+		DE52474564AA2440082A0C7D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
-			name = "Swiftlint Script";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${PODS_ROOT}/SwiftLint/swiftlint\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SparkRefactoring/Pods-SparkRefactoring-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E963C62725BAA60E0065EBCB /* Sources */ = {
+		E9F0329F2601A78B00E9D0D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9940B5825CBC22700F2C142 /* Notification.Name+.swift in Sources */,
-				E92EEEF825BAE6F60053F32D /* LoginViewController.swift in Sources */,
-				E963C6AF25BAC76D0065EBCB /* AppleLoginHelper.swift in Sources */,
-				E9EEB4F325D148D5001752AF /* SettingViewController.swift in Sources */,
-				E9EEB4EC25D147F8001752AF /* ModeConfigStateViewController.swift in Sources */,
-				E963C63325BAA60F0065EBCB /* ViewController.swift in Sources */,
-				E9AB4F1425C95E01008DAB0C /* HomeHeaderView.swift in Sources */,
-				E92EEF0125BAF8BE0053F32D /* HomeViewController.swift in Sources */,
-				E9AB4F1D25C96E30008DAB0C /* MyVocaViewController.swift in Sources */,
-				E9EEB4FA25D14910001752AF /* SettingSection.swift in Sources */,
-				E963C67025BAB5690065EBCB /* AppleLoginButton.swift in Sources */,
-				E963C62F25BAA60F0065EBCB /* AppDelegate.swift in Sources */,
-				E9EEB50825D14C7D001752AF /* MyVocaEmptyCell.swift in Sources */,
-				E9940B5125CBC1D100F2C142 /* ModeConfig.swift in Sources */,
-				E963C63125BAA60F0065EBCB /* SceneDelegate.swift in Sources */,
-				E9EEB50125D14C6C001752AF /* MyVocaWordCell.swift in Sources */,
-				E9AB4F2425C9707D008DAB0C /* GameViewController.swift in Sources */,
-				E963C66325BAAA960065EBCB /* SplashViewController.swift in Sources */,
-				E9AB4F2B25C97084008DAB0C /* GameCell.swift in Sources */,
+				E9F033442601AE8200E9D0D5 /* UIAlerController.swift in Sources */,
+				E9F033182601ABAA00E9D0D5 /* SplashViewController.swift in Sources */,
+				E9F033452601AE8200E9D0D5 /* UILabel+.swift in Sources */,
+				E946E5302602F73F00F640F7 /* GameCell.swift in Sources */,
+				E9F032AB2601A78B00E9D0D5 /* ViewController.swift in Sources */,
+				E9F033402601AE8200E9D0D5 /* UserDefaults+.swift in Sources */,
+				E9F033522601AF6800E9D0D5 /* MyVocaViewController.swift in Sources */,
+				E9F033472601AE8200E9D0D5 /* UITapGestureRecognizer+.swift in Sources */,
+				E9F033432601AE8200E9D0D5 /* ModeConfigStateView.swift in Sources */,
+				E9F033462601AE8200E9D0D5 /* Notification.Name+.swift in Sources */,
+				E9F033422601AE8200E9D0D5 /* ModeConfig.swift in Sources */,
+				E9F032A72601A78B00E9D0D5 /* AppDelegate.swift in Sources */,
+				E9F033412601AE8200E9D0D5 /* String+.swift in Sources */,
+				E9F033482601AE8200E9D0D5 /* UIWindow+.swift in Sources */,
+				E9F0334D2601AF2400E9D0D5 /* HomeHeaderView.swift in Sources */,
+				E9F033322601AE2600E9D0D5 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E963C67925BAC1120065EBCB /* Sources */ = {
+		E9F032DA2601A9B300E9D0D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9EEB51725D1622A001752AF /* RadioButton.swift in Sources */,
-				E9EEB51025D14ECC001752AF /* PulseAnimation.swift in Sources */,
-				E963C6A125BAC1BB0065EBCB /* UIColor+.swift in Sources */,
-				E9940B8625CBCB2400F2C142 /* SideNavigationView.swift in Sources */,
-				E9AB4F3225C974C9008DAB0C /* CALayer+.swift in Sources */,
-				E963C6AB25BAC5920065EBCB /* UIFont+.swift in Sources */,
-				E9D3421225BC1A4F006A7EF6 /* UserDefaults+.swift in Sources */,
-				E963C6A525BAC1DD0065EBCB /* VDSTextField.swift in Sources */,
-				E92EEF0525BAFB180053F32D /* UITabGestureRecognizer+.swift in Sources */,
+				E946E59C2603250C00F640F7 /* ConfettiView.swift in Sources */,
+				E946E5632602FE4900F640F7 /* SelectFolderCell.swift in Sources */,
+				E946E5352602F85D00F640F7 /* GameType.swift in Sources */,
+				E946E5762603130500F640F7 /* Voca.xcdatamodeld in Sources */,
+				E946E53A2602F9FE00F640F7 /* ScoreAnimateView.swift in Sources */,
+				E946E5942603246C00F640F7 /* ProgressBarNavigationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E963C68125BAC1120065EBCB /* Sources */ = {
+		E9F032ED2601A9CC00E9D0D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E963C68D25BAC1120065EBCB /* PoingDesignSystemTests.swift in Sources */,
+				E946E52A2602EEC600F640F7 /* NoticePopupViewController.swift in Sources */,
+				E946E52B2602EEC600F640F7 /* DeleteUserPopupViewController.swift in Sources */,
+				E946E5102602EEB900F640F7 /* UIFont+.swift in Sources */,
+				E946E5152602EEB900F640F7 /* VDSTextField.swift in Sources */,
+				E946E5132602EEB900F640F7 /* AccentLineTextField.swift in Sources */,
+				E946E5162602EEB900F640F7 /* AccentButton.swift in Sources */,
+				E946E5262602EEC600F640F7 /* SelectFolderButton.swift in Sources */,
+				E946E5272602EEC600F640F7 /* SuccessPopupView.swift in Sources */,
+				E946E5112602EEB900F640F7 /* UIColor+.swift in Sources */,
+				E946E5192602EEB900F640F7 /* CALayer+.swift in Sources */,
+				E946E5142602EEB900F640F7 /* AddWordTextField.swift in Sources */,
+				E946E51B2602EEB900F640F7 /* RadioButton.swift in Sources */,
+				E946E51A2602EEB900F640F7 /* PulseAnimation.swift in Sources */,
+				E946E5182602EEB900F640F7 /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9D3421625BC200B006A7EF6 /* Sources */ = {
+		E9F033002601A9F000E9D0D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9525ECC25C416F8008A7603 /* UserService.swift in Sources */,
-				E91A05B925BC2AD4003579A7 /* ManagedWord+CoreDataProperties.swift in Sources */,
-				E90DC4A625BC376D003ADE71 /* Notification.Name+.swift in Sources */,
-				E91A057C25BC255E003579A7 /* Voca.xcdatamodeld in Sources */,
-				E91A059125BC271A003579A7 /* Word.swift in Sources */,
-				E90DC49F25BC30EF003ADE71 /* VocaCoreDataManager.swift in Sources */,
-				E91A05AF25BC2ACD003579A7 /* ManagedGroup+CoreDataClass.swift in Sources */,
-				E9525EBE25C4160C008A7603 /* BaseManager.swift in Sources */,
-				E974F23F25C29531009DA167 /* VocaManager.swift in Sources */,
-				E9525EC525C41639008A7603 /* UserInfo.swift in Sources */,
-				E91A05B025BC2ACD003579A7 /* ManagedGroup+CoreDataProperties.swift in Sources */,
-				E91A059825BC2723003579A7 /* Folder.swift in Sources */,
-				E9525EB725C415F1008A7603 /* ServerURL.swift in Sources */,
-				E91A05B825BC2AD4003579A7 /* ManagedWord+CoreDataClass.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9D3421E25BC200B006A7EF6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9D3422A25BC200B006A7EF6 /* PoingVocaSubsystemTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9D3423F25BC2060006A7EF6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9940B7F25CBC59600F2C142 /* SelectFolderViewController.swift in Sources */,
-				E9940B7825CBC36B00F2C142 /* GuideView.swift in Sources */,
-				E9940B4925CBB84200F2C142 /* GameType.swift in Sources */,
-				E9940B7125CBC34B00F2C142 /* GameGuideUtill.swift in Sources */,
-				E9940B8D25CBD0B200F2C142 /* SelectFolderCell.swift in Sources */,
+				E946E56B2602FEE400F640F7 /* Folder.swift in Sources */,
+				E946E58E2603163E00F640F7 /* ManagedWord+CoreDataClass.swift in Sources */,
+				E946E58D2603163E00F640F7 /* ManagedGroup+CoreDataProperties.swift in Sources */,
+				E946E58F2603163E00F640F7 /* ManagedWord+CoreDataProperties.swift in Sources */,
+				E946E58C2603163E00F640F7 /* ManagedGroup+CoreDataClass.swift in Sources */,
+				E946E5702602FEEC00F640F7 /* Word.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E963C68825BAC1120065EBCB /* PBXTargetDependency */ = {
+		E9F032E42601A9B300E9D0D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E963C67C25BAC1120065EBCB /* PoingDesignSystem */;
-			targetProxy = E963C68725BAC1120065EBCB /* PBXContainerItemProxy */;
+			target = E9F032DD2601A9B300E9D0D5 /* VocaGame */;
+			targetProxy = E9F032E32601A9B300E9D0D5 /* PBXContainerItemProxy */;
 		};
-		E963C68A25BAC1120065EBCB /* PBXTargetDependency */ = {
+		E9F032F72601A9CC00E9D0D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E963C62A25BAA60E0065EBCB /* SparkRefactoring */;
-			targetProxy = E963C68925BAC1120065EBCB /* PBXContainerItemProxy */;
+			target = E9F032F02601A9CC00E9D0D5 /* VocaDesignSystem */;
+			targetProxy = E9F032F62601A9CC00E9D0D5 /* PBXContainerItemProxy */;
 		};
-		E963C69125BAC1120065EBCB /* PBXTargetDependency */ = {
+		E9F0330A2601A9F000E9D0D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E963C67C25BAC1120065EBCB /* PoingDesignSystem */;
-			targetProxy = E963C69025BAC1120065EBCB /* PBXContainerItemProxy */;
-		};
-		E9D3422525BC200B006A7EF6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E9D3421925BC200B006A7EF6 /* PoingVocaSubsystem */;
-			targetProxy = E9D3422425BC200B006A7EF6 /* PBXContainerItemProxy */;
-		};
-		E9D3422725BC200B006A7EF6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E963C62A25BAA60E0065EBCB /* SparkRefactoring */;
-			targetProxy = E9D3422625BC200B006A7EF6 /* PBXContainerItemProxy */;
-		};
-		E9D3422E25BC200B006A7EF6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E9D3421925BC200B006A7EF6 /* PoingVocaSubsystem */;
-			targetProxy = E9D3422D25BC200B006A7EF6 /* PBXContainerItemProxy */;
-		};
-		E9D3424925BC2060006A7EF6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E9D3424225BC2060006A7EF6 /* VocaGame */;
-			targetProxy = E9D3424825BC2060006A7EF6 /* PBXContainerItemProxy */;
+			target = E9F033032601A9F000E9D0D5 /* VocaSubsystem */;
+			targetProxy = E9F033092601A9F000E9D0D5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E963C63925BAA60F0065EBCB /* LaunchScreen.storyboard */ = {
+		E9F032B12601A78C00E9D0D5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E963C63A25BAA60F0065EBCB /* Base */,
+				E9F032B22601A78C00E9D0D5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1132,7 +869,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E963C63D25BAA60F0065EBCB /* Debug */ = {
+		E9F032B52601A78C00E9D0D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1183,7 +920,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1193,7 +930,7 @@
 			};
 			name = Debug;
 		};
-		E963C63E25BAA60F0065EBCB /* Release */ = {
+		E9F032B62601A78C00E9D0D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1238,7 +975,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1248,16 +985,15 @@
 			};
 			name = Release;
 		};
-		E963C64025BAA60F0065EBCB /* Debug */ = {
+		E9F032B82601A78C00E9D0D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1044E96CAEF05A0FA388350 /* Pods-SparkRefactoring.debug.xcconfig */;
+			baseConfigurationReference = 4414EAC56693C6CECEDEC45F /* Pods-SparkRefactoring.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SparkRefactoring/SparkRefactoring.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M96L4WMU9C;
+				DEVELOPMENT_TEAM = D38GCVNMKY;
 				INFOPLIST_FILE = SparkRefactoring/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1270,16 +1006,15 @@
 			};
 			name = Debug;
 		};
-		E963C64125BAA60F0065EBCB /* Release */ = {
+		E9F032B92601A78C00E9D0D5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F54737D082FA84A58B99D90 /* Pods-SparkRefactoring.release.xcconfig */;
+			baseConfigurationReference = C63A0ABBA29A468D09CB08B2 /* Pods-SparkRefactoring.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SparkRefactoring/SparkRefactoring.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M96L4WMU9C;
+				DEVELOPMENT_TEAM = D38GCVNMKY;
 				INFOPLIST_FILE = SparkRefactoring/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1292,213 +1027,15 @@
 			};
 			name = Release;
 		};
-		E963C69625BAC1120065EBCB /* Debug */ = {
+		E9F032E82601A9B400E9D0D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABC9D5B569B7A546CAEFE098 /* Pods-PoingDesignSystem.debug.xcconfig */;
+			baseConfigurationReference = F46D7FCF59B0B35F83F358A5 /* Pods-VocaGame.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = M96L4WMU9C;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PoingDesignSystem/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Refactoring.Spark.PoingDesignSystem;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E963C69725BAC1120065EBCB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 648CC25CC9663D0F6847D1E1 /* Pods-PoingDesignSystem.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = M96L4WMU9C;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PoingDesignSystem/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Refactoring.Spark.PoingDesignSystem;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E963C69925BAC1120065EBCB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M96L4WMU9C;
-				INFOPLIST_FILE = PoingDesignSystemTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Refactoring.Spark.PoingDesignSystemTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SparkRefactoring.app/SparkRefactoring";
-			};
-			name = Debug;
-		};
-		E963C69A25BAC1120065EBCB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M96L4WMU9C;
-				INFOPLIST_FILE = PoingDesignSystemTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Refactoring.Spark.PoingDesignSystemTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SparkRefactoring.app/SparkRefactoring";
-			};
-			name = Release;
-		};
-		E9D3423225BC200B006A7EF6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EFC8A7EDC0BD4EEE22A4993 /* Pods-PoingVocaSubsystem.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = M96L4WMU9C;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PoingVocaSubsystem/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Refactoring.Spark.PoingVocaSubsystem;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E9D3423325BC200B006A7EF6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 311E47746EC38AFC7CF6291D /* Pods-PoingVocaSubsystem.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = M96L4WMU9C;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PoingVocaSubsystem/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Refactoring.Spark.PoingVocaSubsystem;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E9D3423525BC200B006A7EF6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D38GCVNMKY;
-				INFOPLIST_FILE = PoingVocaSubsystemTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Refactoring.Spark.PoingVocaSubsystemTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SparkRefactoring.app/SparkRefactoring";
-			};
-			name = Debug;
-		};
-		E9D3423625BC200B006A7EF6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D38GCVNMKY;
-				INFOPLIST_FILE = PoingVocaSubsystemTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Refactoring.Spark.PoingVocaSubsystemTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SparkRefactoring.app/SparkRefactoring";
-			};
-			name = Release;
-		};
-		E9D3424D25BC2060006A7EF6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54DBA29B48E81CA98F4C271E /* Pods-VocaGame.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = M96L4WMU9C;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1509,7 +1046,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Refactoring.Spark.VocaGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.odyflame.VocaGame;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1520,15 +1057,15 @@
 			};
 			name = Debug;
 		};
-		E9D3424E25BC2060006A7EF6 /* Release */ = {
+		E9F032E92601A9B400E9D0D5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35298E50DDD1DD8A86446BB3 /* Pods-VocaGame.release.xcconfig */;
+			baseConfigurationReference = 8411DBFF39DF43AC580AAE65 /* Pods-VocaGame.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = M96L4WMU9C;
+				DEVELOPMENT_TEAM = D38GCVNMKY;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1539,7 +1076,125 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Refactoring.Spark.VocaGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.odyflame.VocaGame;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9F032FB2601A9CC00E9D0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24DE79FDCE5D9D6ABE8E214 /* Pods-VocaDesignSystem.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = D38GCVNMKY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VocaDesignSystem/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.odyflame.VocaDesignSystem;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9F032FC2601A9CC00E9D0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CD313B9679BD7560FFCB736 /* Pods-VocaDesignSystem.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = D38GCVNMKY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VocaDesignSystem/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.odyflame.VocaDesignSystem;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9F0330E2601A9F000E9D0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 486A5E09A07EEC5AC4543FEF /* Pods-VocaSubsystem.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = D38GCVNMKY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VocaSubsystem/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.odyflame.VocaSubsystem;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9F0330F2601A9F000E9D0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB96D28878A15F48DFA15F1 /* Pods-VocaSubsystem.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = D38GCVNMKY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VocaSubsystem/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.odyflame.VocaSubsystem;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1552,65 +1207,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E963C62625BAA60E0065EBCB /* Build configuration list for PBXProject "SparkRefactoring" */ = {
+		E9F0329E2601A78B00E9D0D5 /* Build configuration list for PBXProject "SparkRefactoring" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E963C63D25BAA60F0065EBCB /* Debug */,
-				E963C63E25BAA60F0065EBCB /* Release */,
+				E9F032B52601A78C00E9D0D5 /* Debug */,
+				E9F032B62601A78C00E9D0D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E963C63F25BAA60F0065EBCB /* Build configuration list for PBXNativeTarget "SparkRefactoring" */ = {
+		E9F032B72601A78C00E9D0D5 /* Build configuration list for PBXNativeTarget "SparkRefactoring" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E963C64025BAA60F0065EBCB /* Debug */,
-				E963C64125BAA60F0065EBCB /* Release */,
+				E9F032B82601A78C00E9D0D5 /* Debug */,
+				E9F032B92601A78C00E9D0D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E963C69525BAC1120065EBCB /* Build configuration list for PBXNativeTarget "PoingDesignSystem" */ = {
+		E9F032E72601A9B400E9D0D5 /* Build configuration list for PBXNativeTarget "VocaGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E963C69625BAC1120065EBCB /* Debug */,
-				E963C69725BAC1120065EBCB /* Release */,
+				E9F032E82601A9B400E9D0D5 /* Debug */,
+				E9F032E92601A9B400E9D0D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E963C69825BAC1120065EBCB /* Build configuration list for PBXNativeTarget "PoingDesignSystemTests" */ = {
+		E9F032FA2601A9CC00E9D0D5 /* Build configuration list for PBXNativeTarget "VocaDesignSystem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E963C69925BAC1120065EBCB /* Debug */,
-				E963C69A25BAC1120065EBCB /* Release */,
+				E9F032FB2601A9CC00E9D0D5 /* Debug */,
+				E9F032FC2601A9CC00E9D0D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9D3423125BC200B006A7EF6 /* Build configuration list for PBXNativeTarget "PoingVocaSubsystem" */ = {
+		E9F0330D2601A9F000E9D0D5 /* Build configuration list for PBXNativeTarget "VocaSubsystem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9D3423225BC200B006A7EF6 /* Debug */,
-				E9D3423325BC200B006A7EF6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E9D3423425BC200B006A7EF6 /* Build configuration list for PBXNativeTarget "PoingVocaSubsystemTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E9D3423525BC200B006A7EF6 /* Debug */,
-				E9D3423625BC200B006A7EF6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E9D3424C25BC2060006A7EF6 /* Build configuration list for PBXNativeTarget "VocaGame" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E9D3424D25BC2060006A7EF6 /* Debug */,
-				E9D3424E25BC2060006A7EF6 /* Release */,
+				E9F0330E2601A9F000E9D0D5 /* Debug */,
+				E9F0330F2601A9F000E9D0D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1618,17 +1255,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		E91A057A25BC255E003579A7 /* Voca.xcdatamodeld */ = {
+		E946E5742603130500F640F7 /* Voca.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				E91A057B25BC255E003579A7 /* Voca.xcdatamodel */,
+				E946E5752603130500F640F7 /* Voca.xcdatamodel */,
 			);
-			currentVersion = E91A057B25BC255E003579A7 /* Voca.xcdatamodel */;
+			currentVersion = E946E5752603130500F640F7 /* Voca.xcdatamodel */;
 			path = Voca.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = E963C62325BAA60E0065EBCB /* Project object */;
+	rootObject = E9F0329B2601A78B00E9D0D5 /* Project object */;
 }

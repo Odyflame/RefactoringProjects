@@ -1,8 +1,9 @@
 //
 //  Notification.Name+.swift
-//  SparkRefactoring
+//  Vocabulary
 //
-//  Created by Hanteo on 2021/02/04.
+//  Created by LEE HAEUN on 2020/09/19.
+//  Copyright © 2020 LEE HAEUN. All rights reserved.
 //
 
 import Foundation

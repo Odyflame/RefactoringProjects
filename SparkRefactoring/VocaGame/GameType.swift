@@ -2,9 +2,8 @@
 //  GameType.swift
 //  VocaGame
 //
-//  Created by Hanteo on 2021/02/04.
+//  Created by Hanteo on 2021/03/18.
 //
-
 import UIKit
 
 public enum GameType: String {
@@ -17,7 +16,7 @@ public struct GameStyle {
         self.type = type
         self.image = image
     }
-    
+
     public let type: GameType
     public let image: UIImage?
 }

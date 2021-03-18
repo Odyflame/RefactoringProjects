@@ -2,17 +2,19 @@
 //  SelectFolderCell.swift
 //  VocaGame
 //
-//  Created by Hanteo on 2021/02/04.
+//  Created by LEE HAEUN on 2020/09/24.
+//  Copyright © 2020 LEE HAEUN. All rights reserved.
 //
 
 import UIKit
 import SnapKit
-import PoingVocaSubsystem
-import PoingDesignSystem
+import VocaDesignSystem
+import SDWebImage
+import VocaSubsystem
 
 class SelectFolderCell: UICollectionViewCell {
     static let reuseIdentifier = String(describing: SelectFolderCell.self)
-    
+
     enum Constant {
         static let sideMargin: CGFloat = 16
         enum Image {
@@ -24,9 +26,9 @@ class SelectFolderCell: UICollectionViewCell {
         }
         static let imageRadius: CGFloat = 24
     }
-    
+
     var folder: Folder?
-    
+
     lazy var containerView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
@@ -43,7 +45,6 @@ class SelectFolderCell: UICollectionViewCell {
         view.backgroundColor = .white
         return view
     }()
-    
     lazy var folderImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false

@@ -1,0 +1,6 @@
+framework module Pods_VocaSubsystem {
+  umbrella header "Pods-VocaSubsystem-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,8 +1,9 @@
 //
 //  HomeHeaderView.swift
-//  SparkRefactoring
+//  Vocabulary
 //
-//  Created by Hanteo on 2021/02/02.
+//  Created by LEE HAEUN on 2020/08/10.
+//  Copyright © 2020 LEE HAEUN. All rights reserved.
 //
 
 import UIKit
@@ -23,9 +24,9 @@ class HomeHeaderView: UIView {
     }
     let titles: [HomeTabType]
     var activeTabType: HomeTabType
-    
+
     weak var delegate: HomeHeaderDelegate?
-    
+
     lazy var settingButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -52,29 +53,29 @@ class HomeHeaderView: UIView {
         collectionView.contentInset.right = Constant.leftMargin
         return collectionView
     }()
-    
+
     init(titles: [HomeTabType], activeTabType: HomeTabType, delegate: HomeHeaderDelegate) {
         self.titles = titles
         self.activeTabType = activeTabType
         self.delegate = delegate
         super.init(frame: .zero)
-        
+
         configureLayout()
     }
-    
+
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
-    func configure(activeTabType: HomeTabType) {
+
+    func configire(activeTabType: HomeTabType) {
         self.activeTabType = activeTabType
         collectionView.reloadData()
     }
-    
+
     func configureLayout() {
         addSubview(settingButton)
         addSubview(collectionView)
-        
+
         collectionView.snp.makeConstraints { (make) in
             make.top.leading.bottom.equalTo(safeAreaLayoutGuide)
             make.trailing.equalTo(settingButton.snp.leading)
@@ -86,7 +87,7 @@ class HomeHeaderView: UIView {
             make.centerY.equalTo(self)
         }
     }
-    
+
     @objc func settingDidTap(_ sender: UIButton) {
         delegate?.homeHeader(self, settingDidTap: sender)
     }
@@ -106,7 +107,7 @@ extension HomeHeaderView: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return titles.count
     }
-    
+
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: HomeHeaderCell.reuseIdentifier, for: indexPath) as? HomeHeaderCell else {
             return UICollectionViewCell()
@@ -114,8 +115,6 @@ extension HomeHeaderView: UICollectionViewDataSource {
         cell.configure(title: titles[indexPath.row].rawValue, isActive: titles[indexPath.row] == activeTabType)
         return cell
     }
-    
-    
 }
 
 class HomeHeaderCell: UICollectionViewCell {
@@ -123,9 +122,9 @@ class HomeHeaderCell: UICollectionViewCell {
         static let activeColor: UIColor = UIColor(red: 17.0 / 255.0, green: 28.0 / 255.0, blue: 78.0 / 255.0, alpha: 1.0)
         static let inactiveColor: UIColor = UIColor(white: 223.0 / 255.0, alpha: 1.0)
     }
-    
+
     static let reuseIdentifier: String = String(describing: HomeHeaderCell.self)
-    
+
     lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -133,7 +132,7 @@ class HomeHeaderCell: UICollectionViewCell {
         label.textColor = Constant.activeColor
         return label
     }()
-    
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         configureLayout()
@@ -142,7 +141,7 @@ class HomeHeaderCell: UICollectionViewCell {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
+
     func configure(title: String, isActive: Bool) {
         titleLabel.text = title
 

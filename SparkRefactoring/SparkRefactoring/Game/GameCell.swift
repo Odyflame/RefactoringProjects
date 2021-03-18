@@ -1,14 +1,14 @@
 //
 //  GameCell.swift
-//  Vocabulary
+//  SparkRefactoring
 //
-//  Created by user on 2020/08/01.
-//  Copyright © 2020 LEE HAEUN. All rights reserved.
+//  Created by Hanteo on 2021/03/18.
 //
+
 
 import UIKit
 import SnapKit
-import PoingDesignSystem
+import VocaDesignSystem
 import VocaGame
 
 class GameCell: UICollectionViewCell {
@@ -35,11 +35,11 @@ class GameCell: UICollectionViewCell {
             x: 0,
             y: 4,
             blur: 20,
-            spread: 0)
-        
+            spread: 0
+        )
         return view
     }()
-    
+
     lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -47,7 +47,7 @@ class GameCell: UICollectionViewCell {
         label.textColor = Constant.Title.color
         return label
     }()
-    
+
     lazy var thumbImageView: UIImageView = {
         let view = UIImageView()
         view.translatesAutoresizingMaskIntoConstraints = false
@@ -71,16 +71,12 @@ class GameCell: UICollectionViewCell {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-
-    override func prepareForReuse() {
-        super.prepareForReuse()
-    }
     
     func configure(_ style: GameStyle) {
         titleLabel.text = style.type.rawValue
         thumbImageView.image = style.image
     }
-
+    
     func configureLayout() {
         contentView.addSubview(containerView)
         containerView.addSubview(titleLabel)
