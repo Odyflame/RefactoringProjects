@@ -74,7 +74,7 @@ class MyVocaViewController: UIViewController {
     
     func configureMyVoca() {
         view.addSubview(gameFloatingButton)
-
+        
         gameFloatingButton.snp.makeConstraints { (make) in
             make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom).offset(hasTopNotch ? 0 : -16)
             make.trailing.equalTo(view.safeAreaLayoutGuide.snp.trailing).offset(-16)
@@ -83,9 +83,13 @@ class MyVocaViewController: UIViewController {
     }
     
     func configureRx() {
-        gameFloatingButton.rx.tap.subscribe(onNext: { [weak self] in
-            //let viewController = UINavigationController(rootViewController: )
-            
-        }).disposed(by: disposeBag)
+        gameFloatingButton.rx.tap
+            .subscribe(onNext: { [weak self] in
+                let navigationController = UINavigationController(rootViewController: GameViewController())
+                navigationController.navigationBar.isHidden = true
+                navigationController.modalPresentationStyle = .fullScreen
+                navigationController.modalTransitionStyle = .coverVertical
+                self?.present(navigationController, animated: true, completion: nil)
+            }).disposed(by: disposeBag)
     }
 }

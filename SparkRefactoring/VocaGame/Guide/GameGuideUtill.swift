@@ -2,8 +2,7 @@
 //  GameGuideUtill.swift
 //  VocaGame
 //
-//  Created by LEE HAEUN on 2020/10/25.
-//  Copyright © 2020 LEE HAEUN. All rights reserved.
+//  Created by Hanteo on 2021/03/19.
 //
 
 import UIKit

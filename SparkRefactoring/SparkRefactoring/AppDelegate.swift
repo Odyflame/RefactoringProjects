@@ -6,9 +6,10 @@
 //
 
 import UIKit
+import VocaSubsystem
 //import Firebase
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
@@ -23,8 +24,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         self.window?.rootViewController = viewController
         self.window?.makeKeyAndVisible()
-
-        //FirebaseApp.configure()
 
         return true
     }

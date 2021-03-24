@@ -13,14 +13,22 @@ class SplashViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        transitionToHome()
     }
     
     func transitionToHome() {
+        let loginViewController = HomeViewController()
+
         guard let window = UIApplication.shared.windows.filter({$0.isKeyWindow}).first else {
-            return
+            print("왜 안돼지?")
+          return
         }
+        let navigationController = UINavigationController(rootViewController: loginViewController)
+        window.rootViewController = navigationController
         
-        //let viewController = UINavigationController(rootViewController: )
     }
 }

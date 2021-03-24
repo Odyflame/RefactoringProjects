@@ -27,7 +27,7 @@ class SelectFolderCell: UICollectionViewCell {
         static let imageRadius: CGFloat = 24
     }
 
-    var folder: Folder?
+    var folder: VocaForAll?
 
     lazy var containerView: UIView = {
         let view = UIView()
@@ -84,22 +84,14 @@ class SelectFolderCell: UICollectionViewCell {
         folderImageView.sd_cancelCurrentImageLoad()
     }
 
-    func configure(folder: Folder) {
+    func configure(folder: VocaForAll) {
         self.folder = folder
-        folderTitleLabel.text = folder.name
+        folderTitleLabel.text = folder.title
         folderImageView.image = UIImage(named: "emptyFace")
 
-        if let folderCoreData = folder as? FolderCoreData {
-            guard folderCoreData.words.isEmpty == false,
-                  let imageData = folderCoreData.words.first?.image else {
-                return
-            }
-            folderImageView.image = UIImage(data: imageData)
-        } else {
-            folderImageView.sd_setImage(with: URL(string: folder.photoUrl)) { (image, error, _, _) in
-                guard error != nil else { return }
-                self.folderImageView.image = UIImage(named: "emptyFace")
-            }
+        folderImageView.sd_setImage(with: URL(string: folder.words.first?.imageURL ?? "")) { (image, error, _, _) in
+            guard error != nil else { return }
+            self.folderImageView.image = UIImage(named: "emptyFace")
         }
     }
 
