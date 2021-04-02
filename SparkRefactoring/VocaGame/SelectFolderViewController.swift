@@ -155,7 +155,7 @@ public class SelectFolderViewController: UIViewController {
                         self.presentMoreWordAlert()
                         return
                     }
-                    //self.navigationController?.pushViewController(CardMatchingViewController(words: words), animated: true)
+                    self.navigationController?.pushViewController(CardMatchingViewController(words: words), animated: true)
                 }
             }).disposed(by: disposeBag)
     }

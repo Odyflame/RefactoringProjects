@@ -71,6 +71,11 @@
 		E9976E4926083C1D007BBE5F /* FlipCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9976E4426083C1C007BBE5F /* FlipCardView.swift */; };
 		E9976E4A26083C1D007BBE5F /* CardsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9976E4626083C1D007BBE5F /* CardsDataModel.swift */; };
 		E9976E4F26083C87007BBE5F /* GameCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9976E4E26083C86007BBE5F /* GameCompleteViewController.swift */; };
+		E9A1F0F82616B7E800535603 /* imageWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1F0F72616B7E800535603 /* imageWord.swift */; };
+		E9A1F0FD2616B8EE00535603 /* CardMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1F0FC2616B8EE00535603 /* CardMatching.swift */; };
+		E9A1F1022616B96900535603 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1F1012616B96900535603 /* CardCell.swift */; };
+		E9A1F1072616BC8200535603 /* CardMatchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1F1062616BC8200535603 /* CardMatchingViewController.swift */; };
+		E9A1F1122616DC8B00535603 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E946E55D2602FC3500F640F7 /* Media.xcassets */; };
 		E9EC5B4D26047224005CCBB8 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EC5B4C26047224005CCBB8 /* GuideView.swift */; };
 		E9EC5B55260472F9005CCBB8 /* GameGuideUtill.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EC5B54260472F9005CCBB8 /* GameGuideUtill.swift */; };
 		E9EC5B5A260475AF005CCBB8 /* SelectFolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EC5B59260475AF005CCBB8 /* SelectFolderViewController.swift */; };
@@ -210,6 +215,10 @@
 		E9976E4426083C1C007BBE5F /* FlipCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipCardView.swift; sourceTree = "<group>"; };
 		E9976E4626083C1D007BBE5F /* CardsDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsDataModel.swift; sourceTree = "<group>"; };
 		E9976E4E26083C86007BBE5F /* GameCompleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCompleteViewController.swift; sourceTree = "<group>"; };
+		E9A1F0F72616B7E800535603 /* imageWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageWord.swift; sourceTree = "<group>"; };
+		E9A1F0FC2616B8EE00535603 /* CardMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMatching.swift; sourceTree = "<group>"; };
+		E9A1F1012616B96900535603 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		E9A1F1062616BC8200535603 /* CardMatchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMatchingViewController.swift; sourceTree = "<group>"; };
 		E9EC5B4C26047224005CCBB8 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
 		E9EC5B54260472F9005CCBB8 /* GameGuideUtill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameGuideUtill.swift; sourceTree = "<group>"; };
 		E9EC5B59260475AF005CCBB8 /* SelectFolderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFolderViewController.swift; sourceTree = "<group>"; };
@@ -324,6 +333,9 @@
 		E946E59A260324FB00F640F7 /* Matching */ = {
 			isa = PBXGroup;
 			children = (
+				E9A1F0F62616B7D500535603 /* Model */,
+				E9A1F1012616B96900535603 /* CardCell.swift */,
+				E9A1F1062616BC8200535603 /* CardMatchingViewController.swift */,
 			);
 			path = Matching;
 			sourceTree = "<group>";
@@ -416,6 +428,16 @@
 				E9976E4626083C1D007BBE5F /* CardsDataModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E9A1F0F62616B7D500535603 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E9A1F0F72616B7E800535603 /* imageWord.swift */,
+				E9A1F0FC2616B8EE00535603 /* CardMatching.swift */,
+			);
+			name = Model;
+			path = "ㅡㅐㅇ디";
 			sourceTree = "<group>";
 		};
 		E9EC5B4B2604720C005CCBB8 /* Guide */ = {
@@ -769,6 +791,7 @@
 				E9F032B32601A78C00E9D0D5 /* LaunchScreen.storyboard in Resources */,
 				E9F032B02601A78C00E9D0D5 /* Assets.xcassets in Resources */,
 				E9F033282601ABE500E9D0D5 /* Splash.storyboard in Resources */,
+				E9A1F1122616DC8B00535603 /* Media.xcassets in Resources */,
 				E98B1A5D2608453B00970A17 /* Quicksand-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -955,9 +978,13 @@
 				E9976E4F26083C87007BBE5F /* GameCompleteViewController.swift in Sources */,
 				E946E53A2602F9FE00F640F7 /* ScoreAnimateView.swift in Sources */,
 				E9976E4926083C1D007BBE5F /* FlipCardView.swift in Sources */,
+				E9A1F1072616BC8200535603 /* CardMatchingViewController.swift in Sources */,
 				E946E5942603246C00F640F7 /* ProgressBarNavigationView.swift in Sources */,
+				E9A1F1022616B96900535603 /* CardCell.swift in Sources */,
+				E9A1F0FD2616B8EE00535603 /* CardMatching.swift in Sources */,
 				E9976E4A26083C1D007BBE5F /* CardsDataModel.swift in Sources */,
 				E9976E4726083C1D007BBE5F /* FlipGameViewController.swift in Sources */,
+				E9A1F0F82616B7E800535603 /* imageWord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
