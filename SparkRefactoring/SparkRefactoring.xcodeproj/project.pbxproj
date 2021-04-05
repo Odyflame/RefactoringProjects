@@ -108,6 +108,8 @@
 		E9F033482601AE8200E9D0D5 /* UIWindow+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F0333F2601AE8200E9D0D5 /* UIWindow+.swift */; };
 		E9F0334D2601AF2400E9D0D5 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F0334C2601AF2400E9D0D5 /* HomeHeaderView.swift */; };
 		E9F033522601AF6800E9D0D5 /* MyVocaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F033512601AF6800E9D0D5 /* MyVocaViewController.swift */; };
+		E9FF918B261AAF67001B063C /* VocaCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FF918A261AAF67001B063C /* VocaCoreDataManager.swift */; };
+		E9FF9190261AAF6F001B063C /* VocaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FF918F261AAF6F001B063C /* VocaManager.swift */; };
 		F3EFC7D77D9E6648D3FAEB7F /* Pods_SparkRefactoring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAFDA053038083F2D2FE278 /* Pods_SparkRefactoring.framework */; };
 /* End PBXBuildFile section */
 
@@ -253,6 +255,8 @@
 		E9F0333F2601AE8200E9D0D5 /* UIWindow+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+.swift"; sourceTree = "<group>"; };
 		E9F0334C2601AF2400E9D0D5 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		E9F033512601AF6800E9D0D5 /* MyVocaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVocaViewController.swift; sourceTree = "<group>"; };
+		E9FF918A261AAF67001B063C /* VocaCoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocaCoreDataManager.swift; sourceTree = "<group>"; };
+		E9FF918F261AAF6F001B063C /* VocaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocaManager.swift; sourceTree = "<group>"; };
 		F46D7FCF59B0B35F83F358A5 /* Pods-VocaGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocaGame.debug.xcconfig"; path = "Target Support Files/Pods-VocaGame/Pods-VocaGame.debug.xcconfig"; sourceTree = "<group>"; };
 		FBB96D28878A15F48DFA15F1 /* Pods-VocaSubsystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocaSubsystem.release.xcconfig"; path = "Target Support Files/Pods-VocaSubsystem/Pods-VocaSubsystem.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -581,6 +585,8 @@
 				E946E5892603163E00F640F7 /* ManagedGroup+CoreDataProperties.swift */,
 				E946E58A2603163E00F640F7 /* ManagedWord+CoreDataClass.swift */,
 				E946E58B2603163E00F640F7 /* ManagedWord+CoreDataProperties.swift */,
+				E9FF918A261AAF67001B063C /* VocaCoreDataManager.swift */,
+				E9FF918F261AAF6F001B063C /* VocaManager.swift */,
 				E946E5742603130500F640F7 /* Voca.xcdatamodeld */,
 				E9F033062601A9F000E9D0D5 /* VocaSubsystem.h */,
 				E9F033072601A9F000E9D0D5 /* Info.plist */,
@@ -1017,6 +1023,7 @@
 			files = (
 				E9976E1826082FBD007BBE5F /* BaseManager.swift in Sources */,
 				E9976E1D26082FBD007BBE5F /* UserController.swift in Sources */,
+				E9FF9190261AAF6F001B063C /* VocaManager.swift in Sources */,
 				E9976E1326082FBD007BBE5F /* WordController.swift in Sources */,
 				E9976E1626082FBD007BBE5F /* FolderService.swift in Sources */,
 				E9976E1926082FBD007BBE5F /* ServerURL.swift in Sources */,
@@ -1026,6 +1033,7 @@
 				E9976E1526082FBD007BBE5F /* FolderController.swift in Sources */,
 				E9976E2926083113007BBE5F /* DummyData.swift in Sources */,
 				E9976E1C26082FBD007BBE5F /* Word.swift in Sources */,
+				E9FF918B261AAF67001B063C /* VocaCoreDataManager.swift in Sources */,
 				E9976E1126082FBD007BBE5F /* EveryVocabularyService.swift in Sources */,
 				E9976E2F26083152007BBE5F /* Notification.Name+.swift in Sources */,
 				E9976E1426082FBD007BBE5F /* UserService.swift in Sources */,
