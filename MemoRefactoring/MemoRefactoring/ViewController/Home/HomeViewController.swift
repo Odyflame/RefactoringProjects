@@ -1,19 +1,18 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  MemoRefactoring
 //
-//  Created by Hanteo on 2021/04/05.
+//  Created by Hanteo on 2021/04/06.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
 
-
 }
-
