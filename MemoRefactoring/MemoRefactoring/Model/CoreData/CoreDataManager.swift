@@ -170,7 +170,8 @@ class CoreDataManager: NSObject {
         }
     }
     
-    // flush
+    // flush -> 모든 데이터를 없애는 것
+    // 루트는 컨테이너 -> fetch request -> viewContext를 fetch받은 녀석을 하나하나 삭제하고 저장
     func flushData() {
         let container = NSPersistentContainer(name: "MemoApp")
         

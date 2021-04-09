@@ -28,6 +28,7 @@
 		E9B7E137261EA88E00361597 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B7E136261EA88E00361597 /* UIViewController+.swift */; };
 		E9B7E13A261EA8C400361597 /* UICollectionView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B7E139261EA8C400361597 /* UICollectionView+.swift */; };
 		E9B7E13D261EAE1200361597 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B7E13C261EAE1200361597 /* Date+.swift */; };
+		E9B7E140261FEB2400361597 /* CoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B7E13F261FEB2400361597 /* CoreDataModel.swift */; };
 		E9FF91AC261AB42A001B063C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FF91AB261AB42A001B063C /* AppDelegate.swift */; };
 		E9FF91B5261AB42B001B063C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FF91B4261AB42B001B063C /* Assets.xcassets */; };
 		E9FF91B8261AB42B001B063C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FF91B6261AB42B001B063C /* LaunchScreen.storyboard */; };
@@ -57,6 +58,7 @@
 		E9B7E136261EA88E00361597 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		E9B7E139261EA8C400361597 /* UICollectionView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+.swift"; sourceTree = "<group>"; };
 		E9B7E13C261EAE1200361597 /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		E9B7E13F261FEB2400361597 /* CoreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModel.swift; sourceTree = "<group>"; };
 		E9FF91A8261AB42A001B063C /* MemoRefactoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoRefactoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FF91AB261AB42A001B063C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9FF91B4261AB42B001B063C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				E9074ABA261BFA6F003F1AAB /* Images+CoreDataClass.swift */,
 				E9074ABB261BFA6F003F1AAB /* Images+CoreDataProperties.swift */,
 				E9074AC1261BFD8A003F1AAB /* CoreDataManager.swift */,
+				E9B7E13F261FEB2400361597 /* CoreDataModel.swift */,
 				E9074AB4261BF882003F1AAB /* Model.xcdatamodeld */,
 			);
 			path = CoreData;
@@ -391,6 +394,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9B7E140261FEB2400361597 /* CoreDataModel.swift in Sources */,
 				E9B7E13D261EAE1200361597 /* Date+.swift in Sources */,
 				E9B7E134261E9FFE00361597 /* EnumTypes.swift in Sources */,
 				E9074ABF261BFA6F003F1AAB /* Images+CoreDataProperties.swift in Sources */,
