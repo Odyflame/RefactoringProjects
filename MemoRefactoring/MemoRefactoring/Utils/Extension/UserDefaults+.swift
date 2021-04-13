@@ -68,6 +68,7 @@ extension UserDefaults {
     private var tutorial: String {
       return "openTutorial"
     }
+    
     func getisOpenTutorial() -> Bool {
       return userPreferences.bool(forKey: tutorial)
     }

@@ -21,7 +21,7 @@ protocol CoreDataModelOutputs {
 }
 
 protocol CoreDataModelType {
-    var inputs: CoreDataModelType { get }
+    var inputs: CoreDataModelInputs { get }
     var outputs: CoreDataModelOutputs { get }
 }
 
@@ -29,7 +29,7 @@ class CoreDataModel: CoreDataModelInputs, CoreDataModelOutputs, CoreDataModelTyp
     
     var memos: PublishSubject<[MemoData]>
     
-    var inputs: CoreDataModelType { return self }
+    var inputs: CoreDataModelInputs { return self }
     
     var outputs: CoreDataModelOutputs { return self }
     
@@ -83,6 +83,7 @@ class CoreDataModel: CoreDataModelInputs, CoreDataModelOutputs, CoreDataModelTyp
         structImage.date = image.date ?? Date()
         if let imageIdentifier = image.identifier {
             structImage.image = UIImage.init(data: imageIdentifier) ?? UIImage()
+            // identifier는 image.image.jpegData(compressionQuality: 0.8) 로 생각한다
         }
         return structImage
     }
